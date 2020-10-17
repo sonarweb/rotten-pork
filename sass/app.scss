@@ -1,6 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +9,7 @@
 
 .contenedor-header{
     z-index: 20;
-    min-height: 100vh;
+    
     position: absolute;
     width: 100%;
     display: flex;
@@ -25,7 +24,7 @@
         justify-content: flex-end;
         img{
          justify-content: center;
-         width: 40%;
+         width: 20%;
         }
             p{
                 top: 0;
@@ -58,23 +57,22 @@
     overflow: hidden;
 }
 
+
+
+
+.carousel-item {
+    position: relative;
+    width: 100%;
+    margin-right: -100%;
+    backface-visibility: hidden; 
+}
+
 .carousel img{
     width: 100%;
     height: 100vh;
     display: block;
     object-fit: cover;
     filter: brightness(85%);
-}
-
-
-.carousel-item {
-    position: relative;
-    display: none;
-    float: left;
-    width: 100%;
-    margin-right: -100%;
-    backface-visibility: hidden;
-    transition: transform .6s ease-in-out;
 }
 
 
