@@ -5,8 +5,13 @@
   font-family: "Inter", sans-serif;
 }
 
+body {
+  background-color: #1A1A1A;
+}
+
 .contenedor-header {
   z-index: 20;
+  bottom: 1.5rem;
   position: absolute;
   width: 100%;
   display: flex;
@@ -26,12 +31,18 @@
   width: 20%;
 }
 .contenedor-header .logo-fixed p {
-  top: 0;
+  padding: 0;
   display: flex;
   align-items: center;
-  color: white;
+  color: #f33;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 900;
+  text-align: center;
 }
 .contenedor-header .logo-fixed h1 {
+  text-align: center;
+  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +76,7 @@
 }
 
 .navbar-light .navbar-brand img {
-  width: 20%;
+  width: 30%;
 }
 
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show {
@@ -81,45 +92,42 @@
   color: #f33;
 }
 
-.contenedor {
-  padding: 60px, 0;
-  width: 100%;
-  margin: auto;
-  overflow: hidden;
-}
-
 .semblanza {
-  margin: auto;
   width: 100%;
-  height: 200px;
-  overflow: hidden;
-  background-color: #333333;
-  font-size: 1.3em;
-  font-weight: 300;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-image: url(../img/rotten-pork-line-up.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 50vh;
 }
-.semblanza p {
-  color: white;
+.semblanza .text-semblanza {
+  background-color: rgba(0, 0, 0, 0.541);
+  height: 100%;
   display: flex;
+  align-items: center;
   justify-content: center;
-  width: 60%;
+  flex-direction: column;
+  width: 100%;
+}
+.semblanza .text-semblanza p {
+  width: 80%;
+  color: white;
+  font-weight: 100;
   text-align: center;
-  line-height: 1.4;
+  font-size: 1rem;
 }
 
 .music {
+  padding: 2rem;
   background: #1A1A1A;
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-
-.music .albums {
-  justify-content: space-between;
-  margin-left: 40px;
+.music .content-albums {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.music .content-albums .album {
+  margin: 0.6rem;
 }
 
 /*# sourceMappingURL=style.css.map */
