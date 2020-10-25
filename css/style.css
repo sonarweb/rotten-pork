@@ -1,3 +1,4 @@
+/* Colors */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap");
 * {
   margin: 0;
@@ -6,7 +7,7 @@
 }
 
 body {
-  background-color: #1A1A1A;
+  background-color: #0D0D0D;
 }
 
 .contenedor-header {
@@ -34,7 +35,7 @@ body {
   padding: 0;
   display: flex;
   align-items: center;
-  color: #f33;
+  color: #a2282c;
   margin-bottom: 1rem;
   letter-spacing: 0.1rem;
   font-weight: 900;
@@ -89,16 +90,15 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-  color: #f33;
+  color: #a2282c;
 }
 
 .semblanza {
-  width: 100%;
   background-image: url(../img/rotten-pork-line-up.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 50vh;
+  height: 30vh;
 }
 .semblanza .text-semblanza {
   background-color: rgba(0, 0, 0, 0.541);
@@ -112,22 +112,124 @@ body {
 .semblanza .text-semblanza p {
   width: 80%;
   color: white;
-  font-weight: 100;
   text-align: center;
-  font-size: 1rem;
 }
 
 .music {
   padding: 2rem;
   background: #1A1A1A;
 }
+.music h2 {
+  font-weight: 900;
+  padding-top: 4rem;
+  color: #a2282c;
+  text-align: center;
+}
 .music .content-albums {
+  margin-top: 4rem;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  color: white;
+  text-align: center;
+}
+.music .content-albums h3 {
+  font-size: 1.2rem;
 }
 .music .content-albums .album {
   margin: 0.6rem;
+  width: 400px;
+}
+
+.members {
+  padding: 0;
+  margin: 2rem auto 0 auto;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-flow: row;
+}
+.members h2 {
+  font-weight: 900;
+}
+.members p {
+  color: white;
+  text-align: center;
+}
+.members h3 {
+  color: white;
+  text-align: center;
+}
+.members img {
+  padding-right: 30px;
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+}
+
+.tns-nav {
+  text-align: center;
+  margin-top: 13px;
+  padding-bottom: 2rem;
+}
+
+.tns-nav button {
+  width: 11px;
+  height: 11px;
+  border-radius: 20px;
+  border: none;
+  padding: 0;
+  margin: 0 5px;
+  background-color: #bebebe63;
+}
+
+.tns-nav button.tns-nav-active {
+  background-color: #a2282c;
+}
+
+.video-contenedor {
+  padding: 4rem;
+  background: #262626;
+  text-align: center;
+  color: #a2282c;
+  font-size: 4rem;
+}
+.video-contenedor .video {
+  margin-top: 4rem;
+}
+.video-contenedor .canal {
+  color: #a2282c;
+  padding: 0;
+  font-size: 2.9rem;
+}
+.video-contenedor .canal p {
+  margin-top: -0.7rem;
+  color: white;
+  font-weight: 100;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+}
+
+.dates h2 {
+  text-align: center;
+  padding-top: 4rem;
+  color: #a2282c;
+  font-weight: 900;
+}
+.dates .flyers {
+  margin-top: 4rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.dates .flyers .gig {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+  overflow: hidden;
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
