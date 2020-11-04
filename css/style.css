@@ -176,7 +176,7 @@ button {
   z-index: 105;
   width: 25px;
   height: 3px;
-  background-color: #F2F2F2;
+  background: #F2F2F2;
   margin: 5px;
 }
 .navbar .nav-active {
@@ -315,6 +315,7 @@ button {
 .members {
   padding: 0;
   margin: 2rem auto 0 auto;
+  width: 50%;
   overflow: hidden;
   position: relative;
   display: flex;
@@ -331,10 +332,15 @@ button {
   text-align: center;
 }
 .members img {
-  padding-right: 30px;
+  padding: 2rem;
   display: inline-block;
   vertical-align: top;
   max-width: 100%;
+}
+@media only screen and (max-width: 600px) {
+  .members img {
+    width: 100%;
+  }
 }
 
 .tns-nav {

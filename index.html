@@ -200,6 +200,18 @@
 		var slider =tns({
   container: ".members",
   items: 3,
+  center: true,
+  responsive: {
+    "300": {
+      items: 1,
+	
+	  autoplay: true,
+	  center: true,
+    },
+    "600": {
+      "items": 2
+    }
+  },
   autoplay: true,
   autoplayButtonOutput: false,
   loop: true,
