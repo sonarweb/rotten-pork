@@ -1,13 +1,186 @@
+@charset "UTF-8";
 /* Colors */
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600;700&display=swap");
-* {
+/* Headers Size */
+/*Base HTML*/
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
-  font-family: "Inter", sans-serif;
+  box-sizing: inherit;
+}
+
+html {
+  background-origin: border-box;
+  font-size: 1rem;
+}
+html h1 {
+  font-family: Inter, sans-serif;
+}
+html h2 {
+  font-family: Inter, sans-serif;
+}
+html h3 {
+  font-family: Inter, sans-serif;
+}
+html h4 {
+  font-family: Inter, sans-serif;
+}
+html h5 {
+  font-family: Inter, sans-serif;
+}
+html h6 {
+  font-family: Inter, sans-serif;
+}
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 90%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 88%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 90%;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  html {
+    font-size: 87%;
+  }
 }
 
 body {
   background-color: #0D0D0D;
+  font-size: 1rem;
+  color: #F2F2F2;
+  line-height: 1.6;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  color: #df0837;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.7;
+}
+
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  color: #df0837;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2.8;
+}
+
+textarea {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+button {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2.75rem;
+}
+
+.navbar {
+  top: 0;
+  z-index: 100;
+  height: 10vh;
+  position: fixed;
+  width: 100%;
+  transition: ease-in-out 0.5s;
+  display: flex;
+  justify-content: space-around;
+}
+.navbar__logo {
+  width: 30%;
+}
+.navbar__logo img {
+  width: 30%;
+  margin-left: 2rem;
+}
+.navbar__links {
+  display: flex;
+  list-style: none;
+  width: 30%;
+  padding-right: 3rem;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+}
+@media only screen and (max-width: 1024px) {
+  .navbar__links {
+    width: 40%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .navbar__links {
+    z-index: 50;
+    position: fixed;
+    right: 0;
+    height: 100vh;
+    top: 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+  }
+}
+.navbar__item {
+  font-size: 1rem;
+  display: inline-block;
+}
+.navbar__item a {
+  text-decoration: none;
+  color: #F2F2F2;
+  font-weight: 600;
+}
+.navbar__item a:hover {
+  color: #df0837;
+  text-decoration: none;
+  font-weight: 600;
+  transition: ease-in-out 0.3s;
+}
+.navbar__hamburguer {
+  z-index: 105;
+  width: 50px;
+  height: 50px;
+  display: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1024px) {
+  .navbar__hamburguer {
+    display: block;
+    margin-left: 3rem;
+  }
+}
+.navbar__hamburguer div {
+  z-index: 105;
+  width: 25px;
+  height: 3px;
+  background-color: #F2F2F2;
+  margin: 5px;
+}
+.navbar .nav-active {
+  transform: translateX(0%);
 }
 
 .contenedor-header {
@@ -32,22 +205,26 @@ body {
   width: 20%;
 }
 .contenedor-header .logo-fixed p {
-  padding: 0;
   display: flex;
   align-items: center;
-  color: #a2282c;
-  margin-bottom: 1rem;
+  color: #F2F2F2;
+  margin-top: -0.8rem;
   letter-spacing: 0.1rem;
-  font-weight: 900;
+  font-weight: 400;
+  text-shadow: black 0 1px;
   text-align: center;
 }
 .contenedor-header .logo-fixed h1 {
-  text-align: center;
   padding: 0;
+  text-align: center;
+  letter-spacing: 0.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #F2F2F2;
+  font-weight: 700;
+  text-shadow: black 0 1px;
+  font-size: 3.38rem;
 }
 
 .carousel {
@@ -76,23 +253,6 @@ body {
   filter: brightness(85%);
 }
 
-.navbar-light .navbar-brand img {
-  width: 30%;
-}
-
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show {
-  color: #fff;
-}
-
-.navbar-light .navbar-nav .nav-link {
-  color: #fff;
-  margin-left: 1.2em;
-}
-
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-  color: #a2282c;
-}
-
 .semblanza {
   background-image: url(../img/rotten-pork-line-up.jpg);
   background-size: cover;
@@ -100,45 +260,56 @@ body {
   background-attachment: fixed;
   height: 30vh;
 }
-.semblanza .text-semblanza {
-  background-color: rgba(0, 0, 0, 0.541);
+.semblanza__container {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.699);
 }
-.semblanza .text-semblanza p {
-  width: 80%;
-  color: white;
+.semblanza__text {
+  width: 70%;
+  font-weight: 400;
+  color: #F2F2F2;
   text-align: center;
 }
 
 .music {
   padding: 2rem;
-  background: #1A1A1A;
+  background: #262626;
 }
-.music h2 {
-  font-weight: 900;
-  padding-top: 4rem;
-  color: #a2282c;
-  text-align: center;
-}
-.music .content-albums {
-  margin-top: 4rem;
+.music__container {
+  margin-top: 2rem;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  color: white;
+  color: #F2F2F2;
   text-align: center;
 }
-.music .content-albums h3 {
-  font-size: 1.2rem;
-}
-.music .content-albums .album {
+.music__albums {
   margin: 0.6rem;
   width: 400px;
+}
+.music__container-text {
+  display: flex;
+  justify-content: center;
+}
+.music__text {
+  font-size: 1.2rem;
+}
+.music__year {
+  margin-top: -0.5rem;
+}
+
+.integrantes h2 {
+  font-weight: 600;
+  color: #df0837;
+  text-align: center;
+  margin-top: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
 }
 
 .members {
@@ -148,9 +319,8 @@ body {
   position: relative;
   display: flex;
   flex-flow: row;
-}
-.members h2 {
-  font-weight: 900;
+  justify-content: center;
+  align-items: center;
 }
 .members p {
   color: white;
@@ -184,52 +354,94 @@ body {
 }
 
 .tns-nav button.tns-nav-active {
-  background-color: #a2282c;
+  background-color: #df0837;
 }
 
-.video-contenedor {
-  padding: 4rem;
+.videos {
+  padding: 2rem;
   background: #262626;
-  text-align: center;
-  color: #a2282c;
-  font-size: 4rem;
 }
-.video-contenedor .video {
+.videos__contenedor {
+  margin-top: 1rem;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+.videos .embed-responsive-16by9 {
   margin-top: 4rem;
 }
-.video-contenedor .canal {
-  color: #a2282c;
-  padding: 0;
-  font-size: 2.9rem;
+.videos__description {
+  margin-top: 1rem;
+  color: #F2F2F2;
+  text-align: center;
 }
-.video-contenedor .canal p {
-  margin-top: -0.7rem;
-  color: white;
-  font-weight: 100;
-  letter-spacing: 2px;
-  font-size: 0.8rem;
+.videos__titulo {
+  font-weight: 600;
+}
+.videos__año {
+  font-weight: 400;
+  font-size: 1.16rem;
+  line-height: 1.4rem;
 }
 
+.dates {
+  padding-top: 2rem;
+}
 .dates h2 {
   text-align: center;
-  padding-top: 4rem;
-  color: #a2282c;
-  font-weight: 900;
+  margin-top: 2rem;
+  color: #df0837;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
 }
-.dates .flyers {
-  margin-top: 4rem;
+.dates__flyers {
+  position: relative;
+  overflow: hidden;
+  margin-top: 2rem;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
 }
-.dates .flyers .gig {
+.dates__gig {
   display: flex;
+  flex-flow: column;
   align-items: center;
   justify-content: center;
   margin-right: 2rem;
   overflow: hidden;
+}
+.dates__description {
+  color: #F2F2F2;
   margin-top: 1rem;
+}
+.dates .embed-responsive-9by16 {
+  padding: 0;
+  overflow: hidden;
+  height: 400px;
+}
+
+footer {
+  padding-top: 2rem;
+  background: #262626;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer img {
+  width: 20%;
+}
+footer p {
+  color: #F2F2F2;
+}
+footer .social {
+  display: flex;
+  justify-content: space-evenly;
+  width: 9rem;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

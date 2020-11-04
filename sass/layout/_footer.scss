@@ -1,0 +1,21 @@
+footer{
+    padding-top: 2rem;
+    background: $section;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    img{
+        width: 20%;
+    }
+    p{
+        color: $mainText;
+    }
+    .social{
+        display: flex;
+        justify-content: space-evenly;
+        width: 9rem;
+        color: #fff;
+    }
+}

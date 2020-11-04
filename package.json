@@ -1,0 +1,19 @@
+{
+  "name": "rotten-pork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonarweb/rotten-pork.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonarweb/rotten-pork/issues"
+  },
+  "homepage": "https://github.com/sonarweb/rotten-pork#readme"
+}

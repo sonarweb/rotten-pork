@@ -1,0 +1,81 @@
+.navbar{
+    top: 0;
+    z-index: 100;
+    height: 10vh;
+    position: fixed;
+    width: 100%;
+    transition: ease-in-out 0.5s;
+    display: flex;
+    justify-content: space-around;
+    &__logo{
+        width: 30%;
+        img{
+            width: 30%;
+            margin-left: 2rem;
+        } 
+    }
+    &__links{
+        display: flex;
+        list-style: none;
+        width: 30%;
+        padding-right: 3rem;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: auto;
+        @include responsive (tab-land){
+            width: 40%;
+        }
+        @include responsive (tab-port){
+            z-index: 50;
+            position: fixed;
+            right: 0;
+            height: 100vh;
+            top: 0;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+            transform: translateX(100%);
+            transition: transform 0.5s ease-in;
+        }
+    }
+    &__item{
+        font-size: 1rem;
+        display: inline-block;
+        a{
+            text-decoration: none;
+            color: $mainText;
+            font-weight: 600;
+            &:hover{
+                color: $primary-color;
+                text-decoration: none;
+                font-weight: 600;
+                transition: ease-in-out .3s;
+            }
+        }
+    }
+    &__hamburguer{
+        z-index: 105;
+        width: 50px;
+        height: 50px;
+        display: none;
+        cursor: pointer;
+        @include responsive (tab-land){
+            display: block;
+            margin-left: 3rem;
+        }
+            div{
+            z-index: 105;
+            width: 25px;
+            height: 3px;
+            background-color: $mainText;
+            margin: 5px;
+            }
+        }
+    .nav-active{
+        transform: translateX(0%);
+    }    
+}  
+
+

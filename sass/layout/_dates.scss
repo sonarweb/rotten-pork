@@ -1,0 +1,37 @@
+.dates{
+    padding-top: 2rem;
+    h2{
+        text-align: center;
+        margin-top: 2rem;
+        color: $primary-color;
+        font-weight: 600;
+        letter-spacing: .1rem;
+    }
+    &__flyers{
+        position: relative;
+        overflow: hidden;
+        margin-top: 2rem;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    &__gig{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 2rem;
+        overflow: hidden;
+    }
+    &__description{
+        color: $mainText;
+        margin-top: 1rem;
+    }
+
+    .embed-responsive-9by16{
+        padding: 0;
+        overflow: hidden;
+        height: 400px;
+    }
+}

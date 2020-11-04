@@ -1,0 +1,31 @@
+.videos{
+    padding: 2rem;
+    background: $section;
+ 
+    
+    &__contenedor{
+        margin-top: 1rem;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        
+    }
+    .embed-responsive-16by9{
+        margin-top: 4rem;
+    }
+   &__description{
+       margin-top: 1rem;
+       color: $mainText;
+       text-align: center;
+   }
+   &__titulo{
+       font-weight: 600;
+   }
+   &__año{
+       font-weight: 400;
+       font-size: 1.16rem;
+       line-height: 1.4rem;
+   }
+}

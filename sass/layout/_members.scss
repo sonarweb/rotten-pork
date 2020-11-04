@@ -1,0 +1,54 @@
+.integrantes{
+    h2{  
+      font-weight: 600;
+      color: $primary-color;
+      text-align: center;
+      margin-top: 2rem;
+      font-weight: 600;
+      letter-spacing: .1rem;
+  }
+}
+.members{
+    padding: 0;
+    margin: 2rem auto 0 auto;
+    overflow: hidden; 
+    position:relative;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+        p{
+            color: white;
+            text-align: center;
+        }
+        h3{
+            color: white;
+            text-align: center;
+        }
+        img {
+
+           padding-right: 30px;
+            display: inline-block;
+            vertical-align: top;
+            max-width: 100%;
+    }
+}
+
+.tns-nav {
+  text-align: center;
+  margin-top: 13px;
+  padding-bottom: 2rem;
+}
+
+.tns-nav button{
+    width: 11px;
+    height: 11px;
+    border-radius: 20px;
+    border: none;
+    padding: 0;
+    margin: 0 5px;
+    background-color: #bebebe63;
+  }
+  .tns-nav button.tns-nav-active{
+    background-color: $primary-color;
+  }

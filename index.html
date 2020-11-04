@@ -7,35 +7,32 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;900&display=swap" rel="stylesheet">
 	<script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" integrity="sha384-9/D4ECZvKMVEJ9Bhr3ZnUAF+Ahlagp1cyPC7h5yDlZdXs4DQ/vRftzfd+2uFUuqS" crossorigin="anonymous"></script>
+	
 </head>
 <body>
 	<header>
-		<nav class="navbar navbar-expand-lg navbar-light fixed-top">
-			<div class="container">
-				<div class="container">
-					<a class="navbar-brand" href="#"><img src="img/logo-rotten-pork-white.png" alt=""></a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-				  <span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:#fff; font-size:28px;"></i></span>
-				</button>
-			  
-					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item active">
-							  	<a class="nav-link" href="#">Inicio</a>
-							</li>
-							<li class="nav-item">
-							  	<a class="nav-link" href="#">Bio</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Discografía</a>
-					  		</li>
-					  		<li class="nav-item">
-								<a class="nav-link" href="#">Contacto</a>
-				  			</li>
-					  	</ul>
-					</div>
-				</div>
+		<nav class="navbar">
+			<div class="navbar__logo"><img src="img/logo-rotten-pork-white.png" alt=""></div>
+			<ul class="navbar__links" id="nav-ul">
+				<li class="navbar__item">
+					  <a href="#">INICIO</a>
+				</li>
+				<li class="navbar__item">
+					  <a href="#">BIO</a>
+				</li>
+				<li class="navbar__item">
+					<a href="#">DISCOGRAFÍA</a>
+				  </li>
+				  <li class="navbar__item">
+					<a href="#">CONTACTO</a>
+				  </li>
+			  </ul>	
+			  <div class="navbar__hamburguer" id="burguer">
+				<div></div>
+				<div></div>
+				<div></div>
 			</div>
 		  </nav>
 		  <div class="contenedor-header">
@@ -57,43 +54,43 @@
 				<img src="img/axl-rotten-live.jpg" class="d-block w-100" alt="...">
 			  </div>
 	    </div>
-	</div>
-		  
+	</div>	  
 	</header>
 	<section class="semblanza">
-		<div class="text-semblanza">
-			<p>Rotten Pork nace con la idea de conjugar la brutalidad del Death Metal junto con la agresividad del
-				Grindcore y otros géneros afines a la música extrema.
+		<div class="semblanza__container">
+			<p class="semblanza__text">Rotten Pork se define como una banda experimental, en cuanto a géneros de Metal Extremo se refiere. Con el paso del tiempo ha combinado la agresividad del Grindcore con el Death Metal, Slamming y riffs incluenciados por el Black Metal. 
 			</p>
 		</div>
 	</section>
 	<section class="music">
 		<h2>DISCOGRAFÍA</h2>
-		<div class="content-albums">
-			<div class="album">
+		<div class="music__container">
+			<div class="music__albums">
 				<iframe style="border: 0; width: 320px; height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=952303495/size=large/bgcol=181a1b/linkcol=056cc4/tracklist=false/transparent=true/" seamless><a href="https://rottenpork.bandcamp.com/album/trve-misantropical-deathgrind">Trve MisanTropical DeathGrind by Rotten Pork</a></iframe>
-				<div class="name-album">
-					<h3>TRVE MISANTROPICAL DEATHGRIND</h3>
+				<div class="music__container-text">
+					<h3 class="music__text">TRVE MISANTROPICAL DEATHGRIND</h3>
 				</div>
-				<P>Año de lanzamiento: 2020</P>
+				<P class="music__year">Año de lanzamiento: 2020</P>
 			</div>
-			<div class="album">
+			<div class="music__albums">
 				<iframe style="border: 0; width: 320px; height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=3058594078/size=large/bgcol=181a1b/linkcol=056cc4/tracklist=false/transparent=true/" seamless><a href="https://rottenpork.bandcamp.com/album/tales-of-failure-2018">Tales Of Failure (2018) by Rotten Pork</a></iframe>
-				<div class="name-album">
-					<h3>TALES OF FAILURE</h3>
+				<div class="music__container-text">
+					<h3 class="music__text">TALES OF FAILURE</h3>
 				</div>
-				<P>Año de lanzamiento: 2018</P>
+				<P class="music__year">Año de lanzamiento: 2018</P>
 			</div>
-			<div class="album">
+			<div class="music__albums">
 				<iframe style="border: 0; width: 320px; height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=1148048308/size=large/bgcol=181a1b/linkcol=056cc4/tracklist=false/transparent=true/" seamless><a href="https://rottenpork.bandcamp.com/album/putrida-insanidad-ep">Putrida Insanidad [Ep] by Rotten Pork</a></iframe>
-				<div class="name-album">
-					<h3>PÚTRIDA INSANIDAD</h3>
+				<div class="music__container-text">
+					<h3 class="music__text">PÚTRIDA INSANIDAD</h3>
 				</div>
-				<P>Año de lanzamiento: 2012</P>
+				<P class="music__year">Año de lanzamiento: 2012</P>
 			</div>
 		</div>	
 	</section>
-	<section class="members">
+	<section class="integrantes">
+		<h2>INTEGRANTES</h2>
+	<div class="members">
 		<div class="musician">
 			<img src="img/AXL FB.jpg" alt="">
 			<h3>Axl</h3>
@@ -119,38 +116,85 @@
 			<h3>Javier</h3>
 			<p>Bass</p>
 		</div>
+	</div>
 	</section>
-	<section class="video-contenedor">
+	<section class="videos">
 		<h2>VIDEOS OFICIALES</h2>
-		<div class="video">
-			<iframe width="853" height="480" src="https://www.youtube.com/embed/OiV6gg8Wndk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="videos__resp-iframe" src="https://www.youtube.com/embed/k9kvog-Wd-c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
-		<div class="video">
-			<iframe width="853" height="480" src="https://www.youtube.com/embed/k9kvog-Wd-c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div class="videos__description">
+			<h3 class="videos__titulo">Kaiju Crawling (On The Malecon)</h3>
+			<p class="videos__año">Año: 2020 <br>
+			Video: Unholy Films <br>
+		Audio: Paskkal Produkktions</p>
 		</div>
-		<div class="canal">
-			<i class="fab fa-youtube"></i>
-			<p>Canal de Youtube</p>
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe class="videos__resp-iframe" src="https://www.youtube.com/embed/OiV6gg8Wndk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div class="videos__description">
+			<h3 class="videos__titulo">May-ham In The Lab</h3>
+			<p class="videos__año">Año: 2018 <br>
+			Video: Unholy Films <br>
+		Audio: Paskkal Produkktions</p>
 		</div>
 	</section>
 	<section class="dates">
 		<h2>EVENTOS</h2>
-		<div class="flyers">
-			<div class="gig">
-				<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fshownomercypromotions%2Fposts%2F10158492418574384&show_text=false&width=552&appId=123378147678621&height=497" width="300" height="497" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+		<div class="dates__flyers">
+			<div class="dates__gig">
+				<iframe class="embed-responsive embed-responsive-9by16" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fshownomercypromotions%2Fposts%2F10158492418574384&show_text=false&width=552&appId=123378147678621&height=497" width="300" height="497" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+				<div class="dates__description">
+					<h3 class="dates__evento">Death Alliance II (The Faceless, Equipoise y Origin)</h3>
+					<p class="dates__venue">Lugar: Guadalajara, Jalisco <br>
+					Año: 2020</p>
+				</div>
 			</div>
-			<div class="gig">
-				<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FColostomyPromotions%2Fposts%2F814245635643682&show_text=false&width=552&appId=123378147678621&height=497" width="300" height="497" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+			<div class="dates__gig">
+				<iframe class="embed-responsive embed-responsive-9by16" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FColostomyPromotions%2Fposts%2F814245635643682&show_text=false&width=552&appId=123378147678621&height=497" width="300" height="497" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+				<div class="dates__description">
+					<h3 class="dates__evento">Do Not Resuscitate (Unidad Trauma)</h3>
+					<p class="dates__venue">Lugar: Guadalajara, Jalisco <br>
+					Año: 2019</p>
+				</div>
 			</div>
-			<div class="gig">
-				<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D1371212346342582%26id%3D714279338702556&show_text=false&width=552&appId=123378147678621&height=498" width="300" height="498" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+			<div class="dates__gig">
+				<iframe class="embed-responsive embed-responsive-9by16" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D1371212346342582%26id%3D714279338702556&show_text=false&width=552&appId=123378147678621&height=498" width="300" height="498" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+				<div class="dates__description">
+					<h3 class="dates__evento">Mexican GoreGrind Masters</h3>
+					<p class="dates__venue">Lugar: Tula, Hidalgo <br>
+					Año: 2018</p>
+				</div>
 			</div>
-		<div class="gig">
-			<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D229281004396585%26id%3D176130006378352&show_text=false&width=552&appId=123378147678621&height=496" width="300" height="496" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+		<div class="dates__gig">
+			<iframe class="embed-responsive embed-responsive-9by16" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D229281004396585%26id%3D176130006378352&show_text=false&width=552&appId=123378147678621&height=496" width="300" height="496" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+			<div class="dates__description">
+				<h3 class="dates__evento">Monterrey Death Fest</h3>
+				<p class="dates__venue">Lugar: Monterrey, Nuevo León <br>
+					Año: 2020 
+				</p>
+			</div>
 		</div>
 		</div>
 	</section>
-	
+	<footer>
+		<div class="logo">
+			<img src="img/logo-rotten-pork-white.png" alt="">
+		</div>
+		<div class="contacto">
+			<p>bio</p>
+			<p>Discografía</p>
+			<p>contacto</p>
+		</div>
+		<div class="social">
+			<i class="fab fa-facebook"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-youtube"></i>
+			<i class="fab fa-spotify"></i>
+			<i class="fab fa-bandcamp"></i>
+		</div>
+	</footer>
+	<script src="js/main.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 	<script>
 		var slider =tns({
