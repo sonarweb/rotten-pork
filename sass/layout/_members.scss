@@ -1,4 +1,6 @@
 .integrantes{
+  width: 90%;
+  margin: auto;
     h2{  
       font-weight: 600;
       color: $primary-color;
@@ -9,9 +11,8 @@
   }
 }
 .members{
-    padding: 0;
     margin: 2rem auto 0 auto;
-    width: 50%;
+    width: 100%;
     overflow: hidden; 
     position:relative;
     display: flex;

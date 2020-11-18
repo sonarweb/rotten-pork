@@ -9,32 +9,58 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
 	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;900&display=swap" rel="stylesheet">
 	<script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" integrity="sha384-9/D4ECZvKMVEJ9Bhr3ZnUAF+Ahlagp1cyPC7h5yDlZdXs4DQ/vRftzfd+2uFUuqS" crossorigin="anonymous"></script>
-	
+	<script src="/js/main.js" defer></script>
 </head>
 <body>
 	<header>
-		<nav class="navbar">
-			<div class="navbar__logo"><img src="img/logo-rotten-pork-white.png" alt=""></div>
-			<ul class="navbar__links" id="nav-ul">
-				<li class="navbar__item">
-					  <a href="#">INICIO</a>
-				</li>
-				<li class="navbar__item">
-					  <a href="#">BIO</a>
-				</li>
-				<li class="navbar__item">
-					<a href="#">DISCOGRAFÍA</a>
-				  </li>
-				  <li class="navbar__item">
-					<a href="#">CONTACTO</a>
-				  </li>
-			  </ul>	
-			  <div class="navbar__hamburguer" id="burguer">
-				<div></div>
-				<div></div>
-				<div></div>
-			</div>
-		  </nav>
+		<nav class="navigation" id="navigation">
+            <div class="container">
+                <div class="mobile-navigation">
+                    <a class="logo" href="#">
+                        <img class="color" src="/img/logo-rotten-pork-red.png">
+                        <img class="white" src="/img/logo-rotten-pork-white.png">
+                    </a>
+                    <div class="dropdown lang-dropdown d-lg-none">
+                        <button class="btn btn-sm dropdown-toggle" type="button" id="lang-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Idioma</button>
+                        <div class="dropdown-menu" aria-labelledby="lang-dropdown">
+                            <a class="dropdown-item" href="http://maleconpuertovallarta.com/en">Inglés</a>
+                            <a class="dropdown-item" href="http://maleconpuertovallarta.com/es">Espáñol</a>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary d-lg-none" id="show-sidebar"><i class="fa fa-bars fa-fw"></i></button>
+                </div>
+                <div class="sidebar">
+                    <div class="sidebar-top">
+                        <span>Rotten Pork</span>
+                        <button type="button" class="btn btn-primary btn-sm" id="hide-sidebar"><i class="fa fa-times fa-fw"></i></button>
+                    </div>
+                    <ul class="nav main-navigation">
+                        <li class="nav-item">
+                            <a class="nav-link hover-gold" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hover-pink" href="#">Bio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hover-blue" href="#">Discografía</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hover-green" href="#">Contacto</a>
+                        </li>  
+                    </ul>
+                    <div class="dropdown lang-dropdown d-none d-lg-block">
+                        <button class="btn btn-sm dropdown-toggle" type="button" id="lang-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Idioma</button>
+                        <div class="dropdown-menu" aria-labelledby="lang-dropdown">
+                            <a class="dropdown-item" href="http://maleconpuertovallarta.com/en">Inglés</a>
+                            <a class="dropdown-item" href="http://maleconpuertovallarta.com/es">Espáñol</a>
+                        </div>
+                    </div>
+                    <div class="sidebar-bottom">
+                        2020 Rotten Pork &copy;
+                    </div>
+                </div>
+            </div>
+        </nav>
 		  <div class="contenedor-header">
 			  <div class="logo-fixed">
 				<img src="img/logo-rotten-pork-red.png" alt="">
@@ -182,7 +208,7 @@
 			<img src="img/logo-rotten-pork-white.png" alt="">
 		</div>
 		<div class="contacto">
-			<p>bio</p>
+			<p>Bio</p>
 			<p>Discografía</p>
 			<p>contacto</p>
 		</div>
@@ -194,22 +220,22 @@
 			<i class="fab fa-bandcamp"></i>
 		</div>
 	</footer>
-	<script src="js/main.js"></script>
+	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 	<script>
 		var slider =tns({
   container: ".members",
   items: 3,
   center: true,
+  edgePadding: 30,
   responsive: {
     "300": {
       items: 1,
-	
 	  autoplay: true,
 	  center: true,
     },
     "600": {
-      "items": 2
+      items: 2
     }
   },
   autoplay: true,
@@ -219,7 +245,7 @@
   mouseDrag: true,
   slideBy: "page",
   swipeAngle: false,
-  speed: 400,
+  speed: 5000,
   navPosition: "bottom",
   nav: true
 });
