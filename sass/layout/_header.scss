@@ -16,28 +16,30 @@
         justify-content: flex-end;
         img{
             justify-content: center;
-            width: 20%;
+            width: 40%;
         }
         p{
             display: flex;
             align-items: center;
-            color: $mainText;
+            color: white;
             margin-top: -.8rem;
             letter-spacing: .1rem;
             font-weight: 400;
             text-shadow: black 0 1px;
             text-align: center;
+            font-size: .7rem;
         }
         h1{
             padding: 0;
             text-align: center;
             letter-spacing: .20rem;
             display: flex;
-            justify-content: center;                align-items: center;
-            color: $mainText;
+            justify-content: center;                
+            align-items: center;
+            color: white;
             font-weight: 700;
             text-shadow: black 0 1px;
-            font-size: 3.38rem;
+            font-size: 2.5rem;
         }
     }
 } 

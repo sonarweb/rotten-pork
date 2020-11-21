@@ -1,9 +1,4 @@
 
-
-
-
-/* Headers Size */
-
 /*Base HTML*/
 *,
 *::before,
@@ -17,28 +12,7 @@ html{
     background-origin: border-box;
     font-size: 1rem;
 
-    @include headings(){
-        font-family: Inter, sans-serif;
-    }
-    
-
-    @include responsive(tab-land) {
-        font-size: 90%; // 9px = 1rem; 9/16px = 56.25%;
-    }
-
-    @include responsive(tab-port) {
-        font-size: 88%; // 8px 
-    }
-
-    @include responsive(phone) {
-        font-size: 90%; // 7px = 1rem
-    }
-
-    @include responsive(big-desktop) {
-        font-size: 87%
-    }
 }
-
 body{
     background-color: $background;
     font-size: 1rem;

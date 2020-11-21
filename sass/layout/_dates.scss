@@ -1,5 +1,6 @@
 .dates{
     padding-top: 2rem;
+    width: 100%;
     h2{
         text-align: center;
         margin-top: 2rem;
@@ -12,8 +13,8 @@
         overflow: hidden;
         margin-top: 2rem;
         display: flex;
-        flex-flow: row wrap;
         justify-content: center;
+        flex-flow: column;
         align-items: center;
     }
     &__gig{
@@ -21,12 +22,12 @@
         flex-flow: column;
         align-items: center;
         justify-content: center;
-        margin-right: 2rem;
-        overflow: hidden;
+        
     }
     &__description{
         color: $mainText;
         margin-top: 1rem;
+        text-align: center;
     }
 
     .embed-responsive-9by16{

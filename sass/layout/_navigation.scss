@@ -69,9 +69,10 @@
 		padding: 1rem;
 		color: #db0948;
 		display: flex;
+		flex-flow: row;
 		justify-content: space-between;
 		align-items: center;
-		font-size: .75rem;
+		font-size: 1.1rem;
 		font-weight: 700;
 		text-transform: uppercase;
 	}
@@ -104,30 +105,18 @@
 			color: #fff;
 		}
 	}
-	.nav-link.hover-pink {
+	.nav-link.hover-red {
 		&:hover {
-			background-color: #ff004c;
+			background-color: $primary-color;
 		}
 	}
-	.nav-link.hover-blue {
-		&:hover {
-			background-color: #ff004c;
-		}
-	}
-	.nav-link.hover-gold {
-		&:hover {
-			color: #343a40;
-			background-color: #ff004c;
-		}
-	}
-	.nav-link.hover-green {
-		&:hover {
-			background-color: #ff004c;
-		}
-	}
+
 	.lang-dropdown {
 		margin-left: auto;
 		margin-right: 1rem;
+		button{
+			font-style: normal;
+		}
 		.btn {
 			padding-left: 1rem;
 			padding-right: 1rem;
@@ -148,18 +137,19 @@
 			padding: 0;
 			width: 100%;
 			min-width: auto;
-			background-color: #c50941;
+			background-color: $primary-color;
 		}
 		.dropdown-item {
 			padding: .25rem;
 			color: #fff;
 			text-align: center;
 			font-size: .875rem;
+			box-sizing: border-box;
 			&:focus {
-				background-color: #d80242;
+				background-color: $primary-color;
 			}
 			&:hover {
-				background-color: #d80242;
+				background-color: $primary-color;
 			}
 		}
 	}
@@ -171,13 +161,21 @@
 		}
 	}
 }
-.btn-primary {
-	color: rgb(232, 230, 227);
-	background-color: rgb(250, 2, 77);
-	border-color: rgb(202, 202, 202);
-}
-
-		
+.btn {
+	color: $mainText;
+	.svg-inline--fa {
+		color: $mainText;
+		display: inline-block;
+		font-size: 1.5rem;
+		height: 1em;
+		overflow: visible;
+		vertical-align: -.125em;
+		&:hover{
+			color: $primary-color;
+		}
+	}
+	
+}	
 		.contenedor-header{
             z-index: 20;
             bottom: 1.5rem;
@@ -286,6 +284,7 @@
 		}
 		.sidebar-top {
 			display: none;
+			
 		}
 		.nav {
 			flex-direction: row;
