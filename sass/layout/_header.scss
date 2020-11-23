@@ -16,9 +16,9 @@
         justify-content: flex-end;
         img{
             justify-content: center;
-            width: 300px;
+            width: 230px;
             @include responsive (tab-port) {
-                width: 350px;
+                width: 330px;
             }
             @include responsive (desktop) {
                 width: 400px;

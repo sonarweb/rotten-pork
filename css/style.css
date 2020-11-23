@@ -378,11 +378,11 @@ button {
 }
 .contenedor-header .logo-fixed img {
   justify-content: center;
-  width: 300px;
+  width: 230px;
 }
 @media only screen and (min-width: 768px) {
   .contenedor-header .logo-fixed img {
-    width: 350px;
+    width: 330px;
   }
 }
 @media only screen and (min-width: 992px) {
