@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
 	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;900&display=swap" rel="stylesheet">
-	<script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" integrity="sha384-9/D4ECZvKMVEJ9Bhr3ZnUAF+Ahlagp1cyPC7h5yDlZdXs4DQ/vRftzfd+2uFUuqS" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/235ca587ad.js" crossorigin="anonymous"></script>
 	<script src="js/main.js" defer type="text/javascript"></script>
 </head>
 <body>
@@ -205,21 +205,27 @@
 		</div>
 	</section>
 </main>
-	<footer>
-		<div class="logo">
+	<footer class="footer">
+		<div class="footer__logo">
 			<img src="img/logo-rotten-pork-white.png" alt="">
 		</div>
-		<div class="contacto">
-			<p>Bio</p>
-			<p>Discografía</p>
-			<p>contacto</p>
-		</div>
 		<div class="social">
-			<i class="fab fa-facebook"></i>
-			<i class="fab fa-instagram"></i>
-			<i class="fab fa-youtube"></i>
-			<i class="fab fa-spotify"></i>
-			<i class="fab fa-bandcamp"></i>
+			<ul class="social__icons">
+				<li class="social__icon"><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li class="social__icon"><a href="#"><i class="fab fa-spotify"></i></a></li>
+				<li class="social__icon"><a href="#"><i class="fab fa-bandcamp"></i></a></li>
+				<li class="social__icon"><a href="#"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+		</div>
+		<div class="footer__menu">
+			<ul class="footer__links">
+				<li class="footer__link"><a href="#">Bio</a></li>
+				<li class="footer__link"><a href="#">Discografía</a></li>
+				<li class="footer__link"><a href="#">Contacto</a></li>
+			</ul>
+		</div>
+		<div class="footer__autor">
+			<p>2020 SONARWEB &copy;</p>
 		</div>
 	</footer>
 	
@@ -231,7 +237,7 @@
   center: true,
   edgePadding: 30,
   responsive: {
-    "300": {
+    "360": {
       items: 1,
 	  autoplay: true,
 	  center: true,

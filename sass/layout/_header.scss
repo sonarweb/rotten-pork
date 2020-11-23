@@ -16,7 +16,16 @@
         justify-content: flex-end;
         img{
             justify-content: center;
-            width: 40%;
+            width: 300px;
+            @include responsive (tab-port) {
+                width: 350px;
+            }
+            @include responsive (desktop) {
+                width: 400px;
+            }
+            @include responsive (big-desktop) {
+                width: 450px;
+            }
         }
         p{
             display: flex;

@@ -1,21 +1,86 @@
-footer{
-    padding-top: 2rem;
+.footer{
+    width: 100%;
     background: $section;
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     align-items: center;
-    justify-content: space-evenly;
+    &__autor{
+        p{
+            color: white;
+            font-size: .7rem;
+            font-weight: 600;
+        }
+    }
 
-    img{
-        width: 20%;
-    }
-    p{
-        color: $mainText;
-    }
-    .social{
+    &__logo{
+        margin-top: 2rem;
+        width: 100%;
         display: flex;
-        justify-content: space-evenly;
-        width: 9rem;
+        justify-content: center;
+        img{
+            width: 150px;
+        }
+    }
+    &__menu{
+        a{
+            color: $mainText;
+            font-weight: 600;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        ul{
+            width: 230px;
+            display: flex;
+            flex-flow: row;
+            list-style: none;
+            align-items: center;
+            justify-content: space-around;
+            color: $mainText;
+            @include responsive (tab-port) {
+               width: 230px;
+            }
+        }
+    }
+
+    .social{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
         color: #fff;
+        &__icons{
+            a{
+                color: white;
+            }
+            width: 150px;
+            display: flex;
+            flex-flow: row;
+            list-style: none;
+            align-items: center;
+            justify-content: space-around;
+            color: whitesmoke;
+            @include responsive (tab-port) {
+                width: 150px;
+             }
+             @include responsive (tab-land) {
+                width: 150px;
+             }
+            &__icon{
+                padding: 2rem;
+                color: whitesmoke;
+                a{
+                    text-decoration: none;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
     }
 }

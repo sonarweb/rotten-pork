@@ -11,7 +11,7 @@
   }
 }
 .members{
-    margin: 2rem auto 0 auto;
+    margin: .5rem auto 0 auto;
     width: 100%;
     overflow: hidden; 
     position:relative;
@@ -32,9 +32,6 @@
           display: inline-block;
           vertical-align: top;
           max-width: 100%;
-          @include responsive (phone){
-            width: 100%;
-          }
     }
 }
 
@@ -45,8 +42,8 @@
 }
 
 .tns-nav button{
-    width: 11px;
-    height: 11px;
+    width: 9px;
+    height: 9px;
     border-radius: 20px;
     border: none;
     padding: 0;
