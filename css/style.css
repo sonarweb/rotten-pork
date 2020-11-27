@@ -700,11 +700,12 @@ button {
   padding-top: 0;
   position: relative;
   margin-bottom: 2rem;
-  height: 35vh;
+  height: 25vh;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  background-position: center;
+  background-position: top;
+  width: 100%;
 }
 .discografia__container {
   margin-top: 2rem;
@@ -716,7 +717,8 @@ button {
 }
 .discografia__albums {
   margin: 0.6rem;
-  width: 400px;
+  width: 300px;
+  overflow: hidden;
 }
 .discografia__container-text {
   display: flex;
