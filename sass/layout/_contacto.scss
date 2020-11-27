@@ -1,0 +1,41 @@
+
+.formulario{
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;  
+    margin: 0;
+    h1{
+        padding-top: 2rem;
+    }
+    .form-group{
+        
+        color: $mainText;
+    }
+    .btn{
+        background-color: $primary-color;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        width: 20%;
+        border-color: $titleSection;
+        font-style: normal;
+    }
+    .form-control{
+        background: rgb(216, 216, 216);
+        color: $section;
+        height: 1.5rem;
+    }
+}
+
+#map{
+    margin-top: 1rem;
+    height: 30vh;
+    .gmnoprint a, .gmnoprint span, .gm-style-cc {
+        display:none;
+    }
+    .gmnoprint div {
+        background:none !important;
+    }
+}

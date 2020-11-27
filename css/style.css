@@ -21,6 +21,11 @@ body {
   line-height: 1.6;
 }
 
+span {
+  color: #df0837;
+  font-weight: 800;
+}
+
 body {
   font-family: "Nunito Sans", sans-serif;
   color: #df0837;
@@ -387,12 +392,12 @@ button {
 }
 @media only screen and (min-width: 992px) {
   .contenedor-header .logo-fixed img {
-    width: 400px;
+    width: 300px;
   }
 }
 @media only screen and (min-width: 1920px) {
   .contenedor-header .logo-fixed img {
-    width: 450px;
+    width: 400px;
   }
 }
 .contenedor-header .logo-fixed p {
@@ -625,6 +630,156 @@ button {
   padding: 0;
   overflow: hidden;
   height: 400px;
+}
+
+.bio {
+  width: 100%;
+}
+.bio__img {
+  background-image: url(../img/rotten-pork-live-gig.jpg);
+  padding-top: 0;
+  position: relative;
+  margin-bottom: 2rem;
+  height: 35vh;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+.bio h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+.bio p {
+  padding: 0 2rem 0 2rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #F2F2F2;
+  margin: 2rem 0 2rem 0;
+}
+.bio figure {
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+}
+.bio img {
+  width: 100%;
+}
+.bio figcaption {
+  background-color: #262626;
+  color: #F2F2F2;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 3px;
+  text-align: center;
+}
+.bio .credit {
+  font-size: 0.8rem;
+  margin: 0;
+}
+.bio .container-photos {
+  box-sizing: border-box;
+  padding: 1rem;
+}
+.bio .shows {
+  overflow: hidden;
+}
+.bio .shows img {
+  padding: 1.5rem;
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+}
+
+.discografia {
+  width: 100%;
+}
+.discografia__header {
+  background-image: url(../img/javier-live.jpg);
+  padding-top: 0;
+  position: relative;
+  margin-bottom: 2rem;
+  height: 35vh;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+}
+.discografia__container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  color: #F2F2F2;
+  text-align: center;
+}
+.discografia__albums {
+  margin: 0.6rem;
+  width: 400px;
+}
+.discografia__container-text {
+  display: flex;
+  justify-content: center;
+}
+.discografia__text {
+  font-size: 1.2rem;
+}
+.discografia__year {
+  margin-top: -0.5rem;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+p {
+  padding: 0 2rem 0 2rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #F2F2F2;
+  margin: 2rem 0 2rem 0;
+}
+
+.formulario {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.formulario h1 {
+  padding-top: 2rem;
+}
+.formulario .form-group {
+  color: #F2F2F2;
+}
+.formulario .btn {
+  background-color: #df0837;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  width: 20%;
+  border-color: #A6A6A6;
+  font-style: normal;
+}
+.formulario .form-control {
+  background: #d8d8d8;
+  color: #262626;
+  height: 1.5rem;
+}
+
+#map {
+  margin-top: 1rem;
+  height: 30vh;
+}
+#map .gmnoprint a, #map .gmnoprint span, #map .gm-style-cc {
+  display: none;
+}
+#map .gmnoprint div {
+  background: none !important;
 }
 
 .footer {

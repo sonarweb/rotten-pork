@@ -21,10 +21,10 @@
                 width: 330px;
             }
             @include responsive (desktop) {
-                width: 400px;
+                width: 300px;
             }
             @include responsive (big-desktop) {
-                width: 450px;
+                width: 400px;
             }
         }
         p{
