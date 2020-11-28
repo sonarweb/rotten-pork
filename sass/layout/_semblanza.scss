@@ -3,7 +3,10 @@
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 30vh;
+    height: 45vh;
+    margin: 0;
+    padding: 0;
+  
     &__container{
         height: 100%;
         display: flex;
@@ -12,11 +15,34 @@
         flex-direction: column;
         width: 100%;
         background-color: rgba(0, 0, 0, 0.699);
+        padding: 0;
     }
     &__text{
-        width: 70%;
+        width: 90%;
         font-weight: 400;
         color: $mainText;
         text-align: center;
+       
+    }
+
+    .btn {
+        padding: 10px 20px;
+        background-color: $section;
+        color: $mainText;
+        border-radius: 0;
+        transition: .2s;
+        font-style: normal;
+        border: 1px solid $mainText;
+        &:hover{
+            border: 1px solid $mainText;
+            background-color: $primary-color;
+            color: $mainText;
+              
+        }
+      }
+      
+      /* On hover, the color of .btn will transition to white with black text */
+      p{
+        padding: 0;
     }
 }

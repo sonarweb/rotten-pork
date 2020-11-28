@@ -455,7 +455,10 @@ button {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 30vh;
+  height: 45vh;
+  margin: 0;
+  padding: 0;
+  /* On hover, the color of .btn will transition to white with black text */
 }
 .semblanza__container {
   height: 100%;
@@ -465,12 +468,30 @@ button {
   flex-direction: column;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.699);
+  padding: 0;
 }
 .semblanza__text {
-  width: 70%;
+  width: 90%;
   font-weight: 400;
   color: #F2F2F2;
   text-align: center;
+}
+.semblanza .btn {
+  padding: 10px 20px;
+  background-color: #262626;
+  color: #F2F2F2;
+  border-radius: 0;
+  transition: 0.2s;
+  font-style: normal;
+  border: 1px solid #F2F2F2;
+}
+.semblanza .btn:hover {
+  border: 1px solid #F2F2F2;
+  background-color: #df0837;
+  color: #F2F2F2;
+}
+.semblanza p {
+  padding: 0;
 }
 
 .music {
@@ -590,6 +611,8 @@ button {
 .dates {
   padding-top: 2rem;
   width: 100%;
+  background: black;
+  overflow: hidden;
 }
 .dates h2 {
   text-align: center;
@@ -605,15 +628,6 @@ button {
   justify-content: center;
   flex-flow: column;
   align-items: center;
-}
-@media only screen and (min-width: 768px) {
-  .dates__flyers {
-    dmargin-top: 2rem;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-  }
 }
 .dates__gig {
   display: flex;

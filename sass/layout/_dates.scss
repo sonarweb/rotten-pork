@@ -1,6 +1,8 @@
 .dates{
     padding-top: 2rem;
     width: 100%;
+    background: black;
+    overflow: hidden;
     h2{
         text-align: center;
         color: $primary-color;
@@ -15,19 +17,15 @@
         justify-content: center;
         flex-flow: column;
         align-items: center;
-        @include responsive (tab-port) {
-            dmargin-top: 2rem;
-            display: flex;
-            flex-flow: row wrap;
-            justify-content: center;
-            align-items: center;
-        }
+        
+        
     }
     &__gig{
         display: flex;
         flex-flow: column;
         align-items: center;
         justify-content: center;
+        
         
     }
     &__description{
@@ -42,3 +40,4 @@
         height: 400px;
     }
 }
+
