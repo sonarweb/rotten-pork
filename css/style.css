@@ -495,11 +495,16 @@ button {
 }
 
 .music {
-  padding: 2rem;
-  background: #262626;
+  background: #0D0D0D;
+  padding-bottom: 2.5rem;
+}
+.music h2 {
+  padding-top: 2rem;
+  margin: 0;
+  font-weight: 900;
 }
 .music__container {
-  margin-top: 2rem;
+  width: 100%;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -507,56 +512,66 @@ button {
   text-align: center;
 }
 .music__albums {
-  margin: 0.6rem;
-  width: 400px;
+  width: 100%;
 }
 .music__container-text {
-  display: flex;
-  justify-content: center;
+  padding: 2rem;
 }
 .music__text {
-  font-size: 1.2rem;
+  color: #A6A6A6;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
 }
 .music__year {
-  margin-top: -0.5rem;
+  font-size: 0.9rem;
+  padding-top: 0.1rem;
+  margin: 0;
+  color: #F2F2F2;
 }
 
 .integrantes {
-  width: 90%;
-  margin: auto;
+  padding: 0 2rem;
+  background: #262626;
 }
 .integrantes h2 {
-  font-weight: 600;
+  padding: 2rem;
+  font-weight: 900;
   color: #df0837;
   text-align: center;
-  margin-top: 2rem;
-  font-weight: 600;
-  letter-spacing: 0.1rem;
 }
 
 .members {
-  margin: 0.5rem auto 0 auto;
   width: 100%;
   overflow: hidden;
   position: relative;
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  align-items: center;
 }
 .members p {
-  color: white;
+  color: #F2F2F2;
+  font-size: 1rem;
   text-align: center;
+  margin: 0;
 }
 .members h3 {
-  color: white;
+  padding-top: 1rem;
+  color: #F2F2F2;
   text-align: center;
+  margin-bottom: 0;
 }
 .members img {
-  padding: 2rem;
   display: inline-block;
   vertical-align: top;
-  max-width: 100%;
+  width: 100%;
+}
+.members .brands {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.members .brands img {
+  width: 70px;
+  padding: 0;
 }
 
 .tns-nav {
@@ -581,7 +596,10 @@ button {
 
 .videos {
   padding: 2rem;
-  background: #262626;
+  background: #0D0D0D;
+}
+.videos h2 {
+  font-weight: 900;
 }
 .videos__contenedor {
   margin-top: 1rem;
@@ -604,8 +622,9 @@ button {
 }
 .videos__año {
   font-weight: 400;
-  font-size: 1.16rem;
+  font-size: 1rem;
   line-height: 1.5rem;
+  margin: 0;
 }
 
 .dates {
@@ -617,7 +636,7 @@ button {
 .dates h2 {
   text-align: center;
   color: #df0837;
-  font-weight: 600;
+  font-weight: 900;
   letter-spacing: 0.1rem;
 }
 .dates__flyers {
@@ -634,11 +653,18 @@ button {
   flex-flow: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 1rem;
 }
 .dates__description {
   color: #F2F2F2;
   margin-top: 1rem;
   text-align: center;
+}
+.dates__evento {
+  padding: 0;
+}
+.dates__venue {
+  margin: 0;
 }
 .dates .embed-responsive-9by16 {
   padding: 0;
@@ -654,7 +680,7 @@ button {
   padding-top: 0;
   position: relative;
   margin-bottom: 2rem;
-  height: 35vh;
+  height: 25vh;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;

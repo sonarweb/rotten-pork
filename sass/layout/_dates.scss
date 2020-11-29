@@ -6,7 +6,7 @@
     h2{
         text-align: center;
         color: $primary-color;
-        font-weight: 600;
+        font-weight: 900;
         letter-spacing: .1rem;
     }
     &__flyers{
@@ -25,7 +25,7 @@
         flex-flow: column;
         align-items: center;
         justify-content: center;
-        
+        padding-bottom: 1rem;
         
     }
     &__description{
@@ -34,6 +34,12 @@
         text-align: center;
     }
 
+    &__evento{
+        padding: 0;
+    }
+    &__venue{
+        margin: 0;
+    }
     .embed-responsive-9by16{
         padding: 0;
         overflow: hidden;
