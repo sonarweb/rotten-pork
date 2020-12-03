@@ -77,10 +77,11 @@
                 color: whitesmoke;
                 a{
                     text-decoration: none;
+                    .fa-bars{
+                        color: $primary-color;
+                    }
                 }
-                &:hover{
-                    text-decoration: $primary-color;
-                }
+                
             }
         }
     }

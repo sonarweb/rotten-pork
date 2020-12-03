@@ -219,7 +219,7 @@ button {
   background-color: #df0837;
 }
 .navigation .lang-dropdown .dropdown-item:hover {
-  background-color: #df0837;
+  background-color: #262626;
 }
 
 .navigation.colorized .logo img {
@@ -891,8 +891,8 @@ form {
 .footer .social__icons__icon a {
   text-decoration: none;
 }
-.footer .social__icons__icon:hover {
-  text-decoration: #df0837;
+.footer .social__icons__icon a .fa-bars {
+  color: #df0837;
 }
 
 /*# sourceMappingURL=style.css.map */
