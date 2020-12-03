@@ -61,29 +61,31 @@
                 </div>
             </div>
         </nav>
-        <form>
             <main class="container-form">
+                <h1 class="top-title">Contacto</h1>
                 <section class="formulario">
-                    <h1>Contáctanos</h1>
+                    <form action= "mail.php" method="POST">
                     <div class="form-group">
                         <label for="text">Nombre</label>
-                        <input type="text" class="form-control">
+                        <input type="text" name="nombre" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label for="inputCity">Ciudad</label>
-                        <input type="text" class="form-control" id="inputCity">
+                        <input type="text" name="ciudad" class="form-control" id="inputCity" required>
                       </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Correo Electrónico</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <input type="email" name="mail" class="form-control" id="mail" required>
                       </div>
                       <div class="form-group">
                           <label for="exampleFormControlTextarea1">Mensaje</label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          <textarea class="form-control" name="mensaje" id="form-text" rows="3" required></textarea>
                         </div>
-                      <button type="enviar" class="btn btn-primary">Enviar</button>
-                    </form>
+                    <div class="contenedor-send">
+                        <button type="enviar" class="btn send">Enviar</button>
+                    </div>
                 </section>  
+            </form>
             </main>
             <div id="map"></div>   
             <footer class="footer">

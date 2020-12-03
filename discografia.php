@@ -65,7 +65,7 @@
     <main>
             <article class="discografia">
                 <div class="discografia__header"></div>
-                <h1>DISCOGRAFÍA</h1>
+                <h1 class="top-title">DISCOGRAFÍA</h1>
                 <div class="discografia__container">
                     <div class="discografia__albums">
                         <iframe style="border: 0; width: 300px; height: 420px;" src="https://bandcamp.com/EmbeddedPlayer/album=952303495/size=large/bgcol=181a1b/linkcol=056cc4/tracklist=false/transparent=true/" seamless><a href="https://rottenpork.bandcamp.com/album/trve-misantropical-deathgrind">Trve MisanTropical DeathGrind by Rotten Pork</a></iframe>

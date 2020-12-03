@@ -67,7 +67,7 @@
             <div class="bio__img">
 
             </div>
-            <h1>Biografía</h1>
+            <h1 class="top-title">Biografía</h1>
            
             <p>Con más de diez años en la escena <span>Rotten Pork</span> se ha convertido en un referente del <span>Death Metal</span> en la región de Puerto Vallarta y Bahía de Banderas.</p>
 
@@ -93,7 +93,7 @@
                 
              <p>No cabe duda que <span>Rotten Pork</span> se ha ganado el apoyo incondicional de la escena vallartense, gracias a ese soporte, ha recorrido <span>distintos escenarios</span> en algunas partes del país.</p>
                 
-            <p>La agrupación ha compartido escenario con bandas como <span>Equipoise</span>, <span>Faceless</span>, <span>Origin</span>, <span>Putrid Pile</span>, <span>Unidad Trauma</span>, <span>Carnal Diafragma</span>, <span>Medical Negligence</span>, entre otras.</p>
+            <p>La agrupación ha compartido escenario con bandas como <span>Equipoise</span>, <span>Faceless</span>, <span>Origin</span>, <span>Putrid Pile</span>, <span>Unidad Trauma</span>, <span>Carnal Diafragma</span>, <span>Dios Perro</span>, <span>Medical Negligence</span>, <span>Frank Metal Mascara</span>, entre otras.</p>
             <section class="container-photos">
             <div class="shows">    
                 <div class="photo">

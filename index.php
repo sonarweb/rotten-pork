@@ -64,7 +64,7 @@
 		  <div class="contenedor-header">
 			  <div class="logo-fixed">
 				<img src="img/logo-rotten-pork-red.png" alt="">
-				<h1>ROTTEN PORK</h1>
+				<h1 class="main-title">ROTTEN PORK</h1>
 				<p class="subtitle">BRUTAL DEATHGRIND FROM PUERTO VALLARTA</p>
 			</div>
 		</div>
@@ -87,7 +87,7 @@
 		<div class="semblanza__container">
 			<p class="semblanza__text">Rotten Pork mezcla la agresividad del Grindcore y la brutalidad del Death Metal con riffs melódicos orientados al Black Metal. 
 			</p>
-			<button class="btn">Leer Bio completa</button>
+			<button class="btn"><a href="bio.html" class="bio-btn">Leer Biografía</a></button>
 		</div>
 	</section>
 	<section class="music">
@@ -251,6 +251,7 @@
 	</footer>
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+	
 	<script>
 		var slider =tns({
   container: ".members",
@@ -282,12 +283,6 @@
 
 
 	</script>
-
-
-
-
-
-</script>
 	<!-- JS, Popper.js, and jQuery -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

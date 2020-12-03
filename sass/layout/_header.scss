@@ -14,6 +14,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: flex-end;
+        margin-bottom: 2rem;
         img{
             justify-content: center;
             width: 230px;
@@ -27,18 +28,19 @@
                 width: 400px;
             }
         }
-        p{
+        .subtitle{
             display: flex;
             align-items: center;
             color: white;
-            margin-top: -.8rem;
+            margin: 0;
             letter-spacing: .1rem;
             font-weight: 400;
             text-shadow: black 0 1px;
             text-align: center;
             font-size: .7rem;
+            padding: 0;
         }
-        h1{
+        .main-title{
             padding: 0;
             text-align: center;
             letter-spacing: .20rem;
@@ -49,6 +51,7 @@
             font-weight: 700;
             text-shadow: black 0 1px;
             font-size: 2.5rem;
+            margin: 0;
         }
     }
 } 
