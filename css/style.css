@@ -858,14 +858,14 @@ form {
     width: 230px;
   }
 }
-.footer .social {
+.footer__menu__social {
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-.footer .social__icons {
+.footer__menu__social__icons {
   width: 150px;
   display: flex;
   flex-flow: row;
@@ -874,15 +874,15 @@ form {
   justify-content: space-around;
 }
 @media only screen and (min-width: 768px) {
-  .footer .social__icons {
+  .footer__menu__social__icons {
     width: 150px;
   }
 }
-.footer .social__icons__icon {
+.footer__menu__social__icons__icon {
   padding: 2rem;
   color: red;
 }
-.footer .social__icons__icon a {
+.footer__menu__social__icons__icon a {
   text-decoration: none;
 }
 
