@@ -53,12 +53,10 @@
         justify-content: center;
         align-items: center;
         width: 100%;
+        color: #fff;
         &__icons{
             a{
-                color: $primary-color; 
-            }
-            &:hover{
-                color: $mainText
+                color: white;
             }
             width: 150px;
             display: flex;
@@ -67,6 +65,9 @@
             align-items: center;
             justify-content: space-around;
             color: whitesmoke;
+            &:hover{
+                color: $primary-color;
+            }
             @include responsive (tab-port) {
                 width: 150px;
              }
@@ -79,7 +80,7 @@
                 a{
                     text-decoration: none;
                     &:hover{
-                        color: $primary-color;
+                        text-decoration: none;
                     }
                 }
             }

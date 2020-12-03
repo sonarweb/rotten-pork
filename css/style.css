@@ -864,6 +864,7 @@ form {
   justify-content: center;
   align-items: center;
   width: 100%;
+  color: #fff;
 }
 .footer .social__icons {
   width: 150px;
@@ -875,10 +876,10 @@ form {
   color: whitesmoke;
 }
 .footer .social__icons a {
-  color: #df0837;
+  color: white;
 }
 .footer .social__icons:hover {
-  color: #F2F2F2;
+  color: #df0837;
 }
 @media only screen and (min-width: 768px) {
   .footer .social__icons {
@@ -893,7 +894,7 @@ form {
   text-decoration: none;
 }
 .footer .social__icons__icon a:hover {
-  color: #df0837;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
