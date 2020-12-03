@@ -1,66 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Rotten Pork | Presskit</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
-	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;900&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/235ca587ad.js" crossorigin="anonymous"></script>
-	<script src="js/main.js" defer type="text/javascript"></script>
-</head>
-<body>
-	<header>
-		<nav class="navigation" id="navigation">
-            <div class="container">
-                <div class="mobile-navigation">
-                    <a class="logo" href="#">
-                        <img class="color" src="img/logo-rotten-pork-red.png">
-                        <img class="white" src="img/logo-rotten-pork-white.png">
-                    </a>
-                    <div class="dropdown lang-dropdown d-lg-none">
-                        <button class="btn btn-sm dropdown-toggle" type="button" id="lang-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Idioma</button>
-                        <div class="dropdown-menu" aria-labelledby="lang-dropdown">
-                            <a class="dropdown-item" href="#">Inglés</a>
-                            <a class="dropdown-item" href="#">Espáñol</a>
-                        </div>
-                    </div>
-                    <button type="button" class="btn d-lg-none" id="show-sidebar"><i class="fa fa-bars fa-fw"></i></button>
-                </div>
-                <div class="sidebar">
-                    <div class="sidebar-top">
-                        <span>Rotten Pork Presskit digital</span>
-                        <button type="button" class="btn btn-sm" id="hide-sidebar"><i class="fa fa-times fa-fw"></i></button>
-                    </div>
-                    <ul class="nav main-navigation">
-                        <li class="nav-item">
-                            <a class="nav-link hover-red" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hover-red" href="bio.html">Bio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hover-red" href="discografia.html">Discografía</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link hover-red" href="contacto.html">Contacto</a>
-                        </li>  
-                    </ul>
-                    <div class="dropdown lang-dropdown d-none d-lg-block">
-                        <button class="btn btn-sm dropdown-toggle" type="button" id="lang-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Idioma</button>
-                        <div class="dropdown-menu" aria-labelledby="lang-dropdown">
-                            <a class="dropdown-item" href="#">Inglés</a>
-                            <a class="dropdown-item" href="#">Espáñol</a>
-                        </div>
-                    </div>
-                    <div class="sidebar-bottom">
-                        2020 Rotten Pork &copy;
-                    </div>
-                </div>
-            </div>
-        </nav>
+<?php
+	include ('includes/header.php');
+?>
 <body>
     <main>
             <article class="discografia">
@@ -98,29 +38,9 @@
                 </div>	
         </article>
     </main>    
-    <footer class="footer">
-		<div class="footer__logo">
-			<img src="img/logo-rotten-pork-white.png" alt="">
-		</div>
-		<div class="social">
-			<ul class="social__icons">
-				<li class="social__icon"><a href="#"><i class="fa fa-facebook"></i></a></li>
-				<li class="social__icon"><a href="#"><i class="fab fa-spotify"></i></a></li>
-				<li class="social__icon"><a href="#"><i class="fab fa-bandcamp"></i></a></li>
-				<li class="social__icon"><a href="#"><i class="fab fa-youtube"></i></a></li>
-			</ul>
-		</div>
-		<div class="footer__menu">
-			<ul class="footer__links">
-				<li class="footer__link"><a href="bio.html">Bio</a></li>
-				<li class="footer__link"><a href="discografia.html">Discografía</a></li>
-				<li class="footer__link"><a href="contacto.html">Contacto</a></li>
-			</ul>
-		</div>
-		<div class="footer__autor">
-			<p>2020 SONARWEB &copy;</p>
-		</div>
-	</footer>
+    <?php
+	    include ('includes/footer.php');
+    ?>
    <!-- JS, Popper.js, and jQuery -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
