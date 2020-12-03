@@ -891,7 +891,7 @@ form {
 .footer .social__icons__icon a {
   text-decoration: none;
 }
-.footer .social__icons__icon a:hover {
+.footer .social__icons__icon:hover {
   text-decoration: #df0837;
 }
 

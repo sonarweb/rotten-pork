@@ -77,9 +77,9 @@
                 color: whitesmoke;
                 a{
                     text-decoration: none;
-                    &:hover{
-                        text-decoration: $primary-color;
-                    }
+                }
+                &:hover{
+                    text-decoration: $primary-color;
                 }
             }
         }
