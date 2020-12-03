@@ -37,16 +37,16 @@
                     </div>
                     <ul class="nav main-navigation">
                         <li class="nav-item">
-                            <a class="nav-link hover-red" href="index.html">Inicio</a>
+                            <a class="nav-link hover-red" href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link hover-red" href="bio.html">Bio</a>
+                            <a class="nav-link hover-red" href="bio.php">Bio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link hover-red" href="discografia.html">Discografía</a>
+                            <a class="nav-link hover-red" href="discografia.php">Discografía</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link hover-red" href="contacto.html">Contacto</a>
+                            <a class="nav-link hover-red" href="contacto.php">Contacto</a>
                         </li>  
                     </ul>
                     <div class="dropdown lang-dropdown d-none d-lg-block">
