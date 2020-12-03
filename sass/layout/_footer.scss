@@ -54,12 +54,6 @@
         align-items: center;
         width: 100%;
         &__icons{
-            a{
-                color: rgb(208 208 208);
-                &:hover{
-                    color: $primary-color;
-                }
-            }
             width: 150px;
             display: flex;
             flex-flow: row;
@@ -74,12 +68,9 @@
              }
             &__icon{
                 padding: 2rem;
-                color: whitesmoke;
+                color: red;
                 a{
                     text-decoration: none;
-                    .fa-bars{
-                        color: $primary-color;
-                    }
                 }
                 
             }
