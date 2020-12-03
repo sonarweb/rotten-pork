@@ -864,7 +864,6 @@ form {
   justify-content: center;
   align-items: center;
   width: 100%;
-  color: #fff;
 }
 .footer .social__icons {
   width: 150px;
@@ -873,15 +872,11 @@ form {
   list-style: none;
   align-items: center;
   justify-content: space-around;
-  color: whitesmoke;
 }
 .footer .social__icons a {
   color: #d0d0d0;
 }
 .footer .social__icons a:hover {
-  color: #df0837;
-}
-.footer .social__icons:hover {
   color: #df0837;
 }
 @media only screen and (min-width: 768px) {
@@ -897,7 +892,7 @@ form {
   text-decoration: none;
 }
 .footer .social__icons__icon a:hover {
-  text-decoration: none;
+  text-decoration: #df0837;
 }
 
 /*# sourceMappingURL=style.css.map */

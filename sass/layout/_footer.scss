@@ -53,7 +53,6 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        color: #fff;
         &__icons{
             a{
                 color: rgb(208 208 208);
@@ -67,10 +66,6 @@
             list-style: none;
             align-items: center;
             justify-content: space-around;
-            color: whitesmoke;
-            &:hover{
-                color: $primary-color;
-            }
             @include responsive (tab-port) {
                 width: 150px;
              }
@@ -83,7 +78,7 @@
                 a{
                     text-decoration: none;
                     &:hover{
-                        text-decoration: none;
+                        text-decoration: $primary-color;
                     }
                 }
             }
