@@ -57,6 +57,9 @@
         &__icons{
             a{
                 color: white;
+                &:hover{
+                    color: $primary-color;
+                }
             }
             width: 150px;
             display: flex;
