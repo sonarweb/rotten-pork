@@ -858,14 +858,14 @@ form {
     width: 230px;
   }
 }
-.footer__social {
+.footer .social {
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
-.footer__social__icons {
+.footer .social__icons {
   width: 150px;
   display: flex;
   flex-flow: row;
@@ -873,16 +873,22 @@ form {
   align-items: center;
   justify-content: space-around;
 }
+.footer .social__icons a {
+  color: #d0d0d0;
+}
+.footer .social__icons a:hover {
+  color: #df0837;
+}
 @media only screen and (min-width: 768px) {
-  .footer__social__icons {
+  .footer .social__icons {
     width: 150px;
   }
 }
-.footer__social__icons__icon {
+.footer .social__icons__icon {
   padding: 2rem;
-  color: red;
+  color: whitesmoke;
 }
-.footer__social__icons__icon a {
+.footer .social__icons__icon a {
   text-decoration: none;
 }
 
