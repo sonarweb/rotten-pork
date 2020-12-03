@@ -53,13 +53,12 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        color: #fff;
         &__icons{
             a{
-                color: white; 
+                color: $primary-color; 
             }
             &:hover{
-                color: $primary-color;
+                color: $mainText
             }
             width: 150px;
             display: flex;
