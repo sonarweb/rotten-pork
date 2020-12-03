@@ -57,6 +57,9 @@
         &__icons{
             a{
                 color: white;
+                &:hover{
+                    color: $primary-color;
+                }
                 
             }
             width: 150px;
@@ -76,7 +79,7 @@
                 padding: 2rem;
                 color: whitesmoke;
                 a{
-                    text-decoration: blue;
+                    text-decoration: none;
                     &:hover{
                         color: $primary-color;
                     }
