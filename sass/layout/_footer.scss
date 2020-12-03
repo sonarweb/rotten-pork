@@ -57,9 +57,7 @@
         &__icons{
             a{
                 color: white;
-                &:hover{
-                    color: $primary-color;
-                }
+                
             }
             width: 150px;
             display: flex;
@@ -78,7 +76,10 @@
                 padding: 2rem;
                 color: whitesmoke;
                 a{
-                    text-decoration: none;
+                    text-decoration: blue;
+                    &:hover{
+                        color: $primary-color;
+                    }
                 }
             }
         }
