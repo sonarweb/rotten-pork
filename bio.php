@@ -1,4 +1,6 @@
 <?php
+    $title = 'Biografía | Rotten Pork';
+    $description = 'Rotten Pork nace en la región de Puerto Vallarta y Bahía de Banderas, convirtiéndose en un referente del Death Metal en la región';
 	include ('includes/header.php');
 ?>
 <body>

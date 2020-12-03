@@ -1,4 +1,6 @@
 <?php
+    $title = 'Discografía | Rotten Pork';
+    $description = 'Rotten Pork cuenta con un full length y 2 ep y un demo, la composición abarca desde el Brutal Death Metal hasta el Black Metal';
 	include ('includes/header.php');
 ?>
 <body>

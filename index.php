@@ -1,4 +1,6 @@
 <?php
+	$title = 'Rotten Pork | Presskit';
+	$description = 'Kit de prensa de Rotten Pork, banda de Death Metal originaria de Puerto Vallarta';
 	include ('includes/header.php');
 ?>
 <div class="contenedor-header">

@@ -1,4 +1,6 @@
 <?php
+    $title = 'Contacto | Rotten Pork';
+    $description = 'Si eres un promotor y te gusta nuestra música, mándanos un correo electrónico';
 	include ('includes/header.php');
 ?>
             <main class="container-form">
