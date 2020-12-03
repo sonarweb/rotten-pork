@@ -878,7 +878,7 @@ form {
 .footer .social__icons a {
   color: white;
 }
-.footer .social__icons a:hover {
+.footer .social__icons:hover {
   color: #df0837;
 }
 @media only screen and (min-width: 768px) {
