@@ -876,7 +876,10 @@ form {
   color: whitesmoke;
 }
 .footer .social__icons a {
-  color: white;
+  color: #d0d0d0;
+}
+.footer .social__icons a:hover {
+  color: #df0837;
 }
 .footer .social__icons:hover {
   color: #df0837;

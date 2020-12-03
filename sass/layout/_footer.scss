@@ -56,7 +56,10 @@
         color: #fff;
         &__icons{
             a{
-                color: white;
+                color: rgb(208 208 208);
+                &:hover{
+                    color: $primary-color;
+                }
             }
             width: 150px;
             display: flex;
