@@ -45,36 +45,35 @@
                width: 230px;
             }
         }
-        &__social{
-            padding: 0;
+    }
+
+    &__social{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        &__icons{
+            width: 150px;
             display: flex;
-            justify-content: center;
+            flex-flow: row;
+            list-style: none;
             align-items: center;
-            width: 100%;
-            &__icons{
+            justify-content: space-around;
+            @include responsive (tab-port) {
                 width: 150px;
-                display: flex;
-                flex-flow: row;
-                list-style: none;
-                align-items: center;
-                justify-content: space-around;
-                @include responsive (tab-port) {
-                    width: 150px;
-                 }
-                 @include responsive (tab-land) {
-                    width: 150px;
-                 }
-                &__icon{
-                    padding: 2rem;
-                    color: red;
-                    a{
-                        text-decoration: none;
-                    }
-                    
+             }
+             @include responsive (tab-land) {
+                width: 150px;
+             }
+            &__icon{
+                padding: 2rem;
+                color: red;
+                a{
+                    text-decoration: none;
                 }
+                
             }
         }
     }
-    }
-
-   
+}
