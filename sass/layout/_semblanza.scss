@@ -32,7 +32,8 @@
         border-radius: 0;
         transition: .2s;
         font-style: normal;
-        border: 1px solid $mainText;
+        border: 1px solid $primary-color;
+      
         &:hover{
             border: 1px solid $mainText;
             background-color: $primary-color;
@@ -43,6 +44,9 @@
       .bio-btn{
           text-decoration: none;
           color: $mainText;
+          text-transform: uppercase;
+          font-weight: 800;
+          font-size: .8rem;
       }
       
       /* On hover, the color of .btn will transition to white with black text */

@@ -30,32 +30,50 @@
 			<button class="btn"><a href="bio.html" class="bio-btn">Leer Biografía</a></button>
 		</div>
 	</section>
-	<section class="music">
-		<h2>DISCOGRAFÍA</h2>
-		<div class="music__container">
-			<div class="music__albums">
-				<div class="music__container-text">
-					<h3 class="music__text">TRVE MISANTROPICAL DEATHGRIND</h3>
-					<P class="music__year">Año de lanzamiento: 2020</P>
+	<section class="discos">
+		<h2>Discografía</h2>
+		<div class="cds">
+			<div class="cd">
+				<img src="img/misantropical.jpg" alt="">
+				<div class="cover-social">
+					<h3 class="small-title" id="trve">TRVE MISANTROPICAL DEATHGRIND</h3>
+					<p class="small-text">08/01/2020</p>
+					<div class="icons">
+						<a href="#"><i class="fab fa-spotify" id="spoty"></i></a>
+						<a href="#"><i class="fab fa-amazon" id="amazon"></i></a>
+						<a href="#"><i class="fab fa-apple" id="apple"></i></a>
+						<a href="#"><i class="fab fa-bandcamp" id="bandcamp"></i></a>
+					</div>
 				</div>
 			</div>
-			<iframe style="border: 0; width: 300px; height: 571px;" src="https://bandcamp.com/EmbeddedPlayer/album=952303495/size=large/bgcol=262a2b/linkcol=ba7906/transparent=true/" seamless><a href="https://rottenpork.bandcamp.com/album/trve-misantropical-deathgrind">Trve MisanTropical DeathGrind by Rotten Pork</a></iframe>
-			<div class="music__albums">
-				<div class="music__container-text">
-					<h3 class="music__text">TALES OF FAILURE</h3>
-					<P class="music__year">Año de lanzamiento: 2018</P>
+			<div class="cd">
+				<img src="img/tales-failure.jpg" alt="">
+				<div class="cover-social">
+					<h3 class="small-title" id="tales">TALES OF FAILURE</h3>
+					<p class="small-text">08/08/2018</p>
+					<div class="icons">
+						<a href="#"><i class="fab fa-spotify" id="spoty"></i></a>
+						<a href="#"><i class="fab fa-amazon" id="amazon"></i></a>
+						<a href="#"><i class="fab fa-apple" id="apple"></i></a>
+						<a href="#"><i class="fab fa-bandcamp" id="bandcamp"></i></a>
+					</div>
 				</div>
-				<iframe style="border: 0; width: 300px; height: 571px;" src="https://bandcamp.com/EmbeddedPlayer/album=3058594078/size=large/bgcol=181a1b/linkcol=b21f0c/transparent=true/" seamless><a href="https://rottenpork.bandcamp.com/album/tales-of-failure-2018">Tales Of Failure (2018) by Rotten Pork</a></iframe>
-				
 			</div>
-			<div class="music__albums">
-				<div class="music__container-text">
-					<h3 class="music__text">PÚTRIDA INSANIDAD</h3>
-					<P class="music__year">Año de lanzamiento: 2012</P>
+			<div class="cd">
+				<img src="img/putrida.jpg" alt="">
+				<div class="cover-social">
+					<h3 class="small-title" id="putrida">PÚTRIDA INSANIDAD</h3>
+					<p class="small-text">11/01/2012</p>
+					<div class="icons">
+						<a href="#"><i class="fab fa-spotify" id="spoty"></i></a>
+						<a href="#"><i class="fab fa-amazon" id="amazon"></i></a>
+						<a href="#"><i class="fab fa-apple" id="apple"></i></a>
+						<a href="#"><i class="fab fa-bandcamp" id="bandcamp"></i></a>
+					</div>
 				</div>
-				<iframe style="border: 0; width: 300px; height: 571px;" src="https://bandcamp.com/EmbeddedPlayer/album=1148048308/size=large/bgcol=181a1b/linkcol=b21f0c/transparent=true/" seamless><a href="https://rottenpork.bandcamp.com/album/putrida-insanidad-ep">Putrida Insanidad [Ep] by Rotten Pork</a></iframe>
 			</div>
-		</div>	
+		</div>
+		<button class="btn"><a href="discografia.php" class="disco-btn">Ver discografía completa</a></button>
 	</section>
 	<section class="integrantes">
 		<h2>INTEGRANTES</h2>
@@ -159,7 +177,7 @@
 			<div class="dates__description">
 				<h3 class="dates__evento">Monterrey Death Fest</h3>
 				<p class="dates__venue">Lugar: Monterrey, Nuevo León <br>
-					Año: 2017 
+					Año: 2018 
 				</p>
 			</div>
 		</div>
@@ -180,9 +198,41 @@
   edgePadding: 30,
   gutter: 30,
   responsive: {
-    "360": {
+    "200": {
       items: 1,
 	  autoplay: true,
+	  center: true,
+    },
+    "600": {
+      items: 2
+    }
+  },
+  autoplay: true,
+  autoplayButtonOutput: false,
+  loop: true,
+  controls: false,	
+  mouseDrag: true,
+  slideBy: "page",
+  swipeAngle: false,
+  speed: 500,
+  navPosition: "bottom",
+  nav: true
+});
+
+
+	</script>
+
+<script>
+		var slider =tns({
+  container: ".cds",
+  items: 3,
+  center: true,
+  edgePadding: 30,
+  gutter: 30,
+  responsive: {
+    "200": {
+      items: 1,
+	  autoplay: false,
 	  center: true,
     },
     "600": {

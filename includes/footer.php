@@ -2,12 +2,12 @@
 		<div class="footer__logo">
 			<img src="img/logo-rotten-pork-white.png" alt="">
 		</div>
-		<div class="social">
-			<ul class="social__icons">
-				<li class="social__icon"><a href="#"><i class="fa fa-facebook"></i></a></li>
-				<li class="social__icon"><a href="#"><i class="fab fa-spotify"></i></a></li>
-				<li class="social__icon"><a href="#"><i class="fab fa-bandcamp"></i></a></li>
-				<li class="social__icon"><a href="#"><i class="fab fa-youtube"></i></a></li>
+		<div class="footer__social">
+			<ul class="footer__icons">
+				<li class="footer__icon"><a href="#"><i class="fa fa-facebook"></i></a></li>
+				<li class="footer__icon"><a href="#"><i class="fab fa-spotify"></i></a></li>
+				<li class="footer__icon"><a href="#"><i class="fab fa-bandcamp"></i></a></li>
+				<li class="footer__icon"><a href="#"><i class="fab fa-youtube"></i></a></li>
 			</ul>
 		</div>
 		<div class="footer__menu">
