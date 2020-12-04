@@ -159,7 +159,7 @@
 			<div class="dates__description">
 				<h3 class="dates__evento">Monterrey Death Fest</h3>
 				<p class="dates__venue">Lugar: Monterrey, Nuevo León <br>
-					Año: 2020 
+					Año: 2017 
 				</p>
 			</div>
 		</div>
