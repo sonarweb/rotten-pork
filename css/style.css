@@ -219,7 +219,7 @@ button {
   background-color: #df0837;
 }
 .navigation .lang-dropdown .dropdown-item:hover {
-  background-color: #262626;
+  background-color: #df0837;
 }
 
 .navigation.colorized .logo img {
@@ -448,41 +448,136 @@ button {
   padding: 0;
 }
 
-.music {
-  background: #0D0D0D;
-  padding-bottom: 2.5rem;
+.discos {
+  padding: 0 1rem;
+  background: #262626;
+  text-align: center;
+  /* Estilos en nueva sección de música*/
 }
-.music h2 {
-  padding-top: 2rem;
-  margin: 0;
-  font-weight: 900;
+.discos .btn {
+  border: 1px solid #df0837;
+  margin-bottom: 2rem;
+  width: 130px;
+  line-height: 1.2rem;
+  transition: all ease-in-out 0.3s;
+  padding: 0.8rem 1rem;
+  text-transform: uppercase;
 }
-.music__container {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+.discos .btn:hover {
+  background-color: #df0837;
+}
+.discos .btn a {
+  text-decoration: none;
   color: #F2F2F2;
+  font-style: normal;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+.discos h2 {
+  padding: 2rem;
+  font-weight: 900;
+  color: #df0837;
   text-align: center;
 }
-.music__albums {
+
+.cds {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.cds img {
+  display: inline-block;
+  vertical-align: top;
   width: 100%;
 }
-.music__container-text {
-  padding: 2rem;
+.cds .cover-social {
+  position: relative;
+  z-index: 10;
+  margin-top: -4rem;
+  padding: 0.5rem;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.904), rgba(34, 34, 34, 0.8));
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
 }
-.music__text {
-  color: #A6A6A6;
-  font-size: 1.5rem;
-  font-weight: 600;
-  padding: 0;
-  margin: 0;
+.cds .cover-social .small-title {
+  margin: 0.3rem;
+  font-weight: 800;
+  font-size: 1rem;
 }
-.music__year {
-  font-size: 0.9rem;
-  padding-top: 0.1rem;
+.cds .cover-social .small-text {
   margin: 0;
-  color: #F2F2F2;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+.cds .cover-social .icons {
+  margin: 0.5rem 0 0 0;
+  width: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.cds .cover-social .icons i {
+  border: 1px solid;
+  border-radius: 50%;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 28px;
+  margin-top: 15px;
+  width: 30px;
+  height: 30px;
+  transition: all ease-in-out 0.3s;
+  margin: 5px 7px;
+}
+
+#spoty {
+  color: #1DB954;
+}
+#spoty:hover {
+  color: #fff;
+  background-color: #1DB954;
+  border-color: #1DB954;
+}
+
+#amazon {
+  color: #FF9900;
+}
+#amazon:hover {
+  color: white;
+  background-color: #FF9900;
+  border-color: #FF9900;
+}
+
+#apple {
+  color: #555555;
+}
+#apple:hover {
+  color: #fff;
+  background-color: #555555;
+  border-color: #555555;
+}
+
+#bandcamp {
+  color: #1da0c3;
+}
+#bandcamp:hover {
+  color: #fff;
+  background-color: #1da0c3;
+  border-color: #1da0c3;
+}
+
+#trve {
+  color: #c8781f;
+  font-size: 0.8rem;
+}
+
+#tales {
+  color: #b40009;
+}
+
+#putrida {
+  color: #c0040b;
 }
 
 .integrantes {
@@ -550,7 +645,7 @@ button {
 
 .videos {
   padding: 2rem;
-  background: #0D0D0D;
+  background: #262626;
 }
 .videos h2 {
   font-weight: 900;
@@ -840,8 +935,10 @@ form {
 .footer__menu a {
   color: #F2F2F2;
   font-weight: 600;
+  transition: all ease-in-out 0.3s;
 }
 .footer__menu a:hover {
+  color: #df0837;
   text-decoration: none;
 }
 .footer__menu ul {
@@ -858,38 +955,23 @@ form {
     width: 230px;
   }
 }
-.footer .social {
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+.footer__social {
+  width: 200px;
 }
-.footer .social__icons {
-  width: 150px;
+.footer__social ul {
   display: flex;
-  flex-flow: row;
   list-style: none;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: space-around;
+  flex-flow: row;
+  font-size: 1.2rem;
 }
-.footer .social__icons a {
-  color: #d0d0d0;
+.footer__social ul li i {
+  color: #F2F2F2;
+  transition: all ease-in-out 0.3s;
 }
-.footer .social__icons a:hover {
+.footer__social ul li i:hover {
   color: #df0837;
-}
-@media only screen and (min-width: 768px) {
-  .footer .social__icons {
-    width: 150px;
-  }
-}
-.footer .social__icons__icon {
-  padding: 2rem;
-  color: whitesmoke;
-}
-.footer .social__icons__icon a {
-  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

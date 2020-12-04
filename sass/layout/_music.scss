@@ -1,40 +1,136 @@
-.music{
-    background: $background;
-    padding-bottom: 2.5rem;;
-    h2{
-        padding-top: 2rem;
-        margin: 0;
-        font-weight: 900;
+.discos{
+    padding: 0 1rem;
+    background: $section;
+    text-align: center; /* Estilos en nueva sección de música*/
+    .btn{
+        border: 1px solid $primary-color;
+        margin-bottom: 2rem;
+        width: 130px;
+        line-height: 1.2rem;
+        transition: all ease-in-out .3s;
+        padding: .8rem 1rem;
+        text-transform: uppercase;
+        &:hover{
+            background-color: $primary-color;
+        }
         
+        a{
+            text-decoration: none;
+            color: $mainText;
+            font-style: normal;
+            font-size: .8rem;
+            font-weight: 800;
+           
+        }
     }
-    
-    &__container{
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        color: $mainText;
+    h2{
+        padding: 2rem;  
+        font-weight: 900;
+        color: $primary-color;
         text-align: center;
     }
-    &__albums{   
-        width: 100%;
-    }
-    &__container-text{
-        padding: 2rem;
-        
-    }
-    &__text{
-        color: $titleSection;
-        font-size: 1.5rem;
-        font-weight: 600;
-        padding: 0;
-        margin: 0;
-    }
-    &__year{
-        font-size: .9rem;
-        padding-top: .1rem;
-        margin: 0;
-        color: $mainText;
-       
+}
+
+.cds{
+    width: 100%;
+    overflow: hidden; 
+    position:relative;
+        img {
+            display: inline-block;
+            vertical-align: top;
+            width: 100%;
+           
+        }
+        .cover-social{
+            position: relative;
+            z-index: 10;
+            margin-top: -4rem;
+            padding: .5rem;
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.904), rgba(34, 34, 34, 0.8));
+            text-align: center;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            .small-title{
+                margin: .3rem; 
+                font-weight: 800;
+                font-size: 1rem;
+                
+            }
+            .small-text{
+                margin: 0;
+                font-size: .8rem;
+                font-weight: 300;
+            }
+           .icons{
+            margin: .5rem 0 0 0;
+            width: 80%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+            i{
+                border: 1px solid;
+                border-radius: 50%;
+                font-size: 1rem;
+                text-align: center;
+                line-height: 28px;
+                margin-top: 15px;
+                width: 30px;
+                height: 30px;
+                transition: all ease-in-out .3s;
+                margin: 5px 7px;
+            }
+           }
+        }
+}
+
+#spoty{
+    color: #1DB954;
+    &:hover{
+        color: #fff;
+        background-color:  #1DB954;
+        border-color:  #1DB954;
     }
 }
+
+#amazon{
+    color: #FF9900;
+    &:hover{
+        color: white;
+        background-color: #FF9900;
+        border-color: #FF9900;
+    }
+}
+
+#apple{
+    color: #555555;
+    &:hover{
+        color: #fff;
+        background-color: #555555;
+        border-color: #555555;
+    }
+}
+
+#bandcamp{
+    color: #1da0c3;
+    &:hover{
+        color: #fff;
+        background-color: #1da0c3;
+        border-color: #1da0c3;
+    }
+}
+
+#trve{
+    color: rgb(200 120 31);
+    font-size: .8rem;
+}
+
+#tales{
+    color: rgb(180 0 9);
+}
+
+#putrida{
+    color: rgb(192 4 11);
+}
+
