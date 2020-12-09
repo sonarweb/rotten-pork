@@ -429,23 +429,23 @@ button {
 }
 .semblanza .btn {
   padding: 10px 20px;
-  background-color: #F2F2F2;
-  color: #df0837;
+  background-color: #262626;
+  color: #F2F2F2;
   border-radius: 0;
   transition: 0.2s;
   font-style: normal;
-  border: 2px solid #df0837;
+  border: 1px solid #df0837;
 }
 .semblanza .btn:hover {
-  border: 2px solid #F2F2F2;
+  border: 1px solid #F2F2F2;
   background-color: #df0837;
-  color: #df0837;
+  color: #F2F2F2;
 }
 .semblanza .bio-btn {
   text-decoration: none;
   color: #F2F2F2;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 0.8rem;
 }
 .semblanza p {

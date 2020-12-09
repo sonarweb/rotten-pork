@@ -27,17 +27,17 @@
 
     .btn {
         padding: 10px 20px;
-        background-color: $mainText;
-        color: $primary-color;
+        background-color: $section;
+        color: $mainText;
         border-radius: 0;
         transition: .2s;
         font-style: normal;
-        border: 2px solid $primary-color;
+        border: 1px solid $primary-color;
       
         &:hover{
-            border: 2px solid $mainText;
+            border: 1px solid $mainText;
             background-color: $primary-color;
-            color: $primary-color;
+            color: $mainText;
               
         }
       }
@@ -45,7 +45,7 @@
           text-decoration: none;
           color: $mainText;
           text-transform: uppercase;
-          font-weight: 600;
+          font-weight: 800;
           font-size: .8rem;
       }
       
