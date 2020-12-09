@@ -468,6 +468,7 @@ button {
 }
 .discos .btn:hover {
   background-color: #df0837;
+  border: 1px solid #F2F2F2;
 }
 .discos .btn a {
   text-decoration: none;
