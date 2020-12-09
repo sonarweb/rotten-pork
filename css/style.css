@@ -414,7 +414,7 @@ button {
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.699);
@@ -425,6 +425,7 @@ button {
   font-weight: 400;
   color: #F2F2F2;
   text-align: center;
+  font-size: 1rem;
 }
 .semblanza .btn {
   padding: 10px 20px;
