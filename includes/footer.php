@@ -1,6 +1,6 @@
 <footer class="footer">
 		<div class="footer__logo">
-			<img src="img/logo-rotten-pork-white.png" alt="">
+			<a href="index.php"><img src="img/logo-rotten-pork-white.png" alt=""></a>
 		</div>
 		<div class="footer__social">
 			<ul class="footer__icons">
@@ -12,9 +12,9 @@
 		</div>
 		<div class="footer__menu">
 			<ul class="footer__links">
-				<li class="footer__link"><a href="bio.html">Bio</a></li>
-				<li class="footer__link"><a href="discografia.html">Discografía</a></li>
-				<li class="footer__link"><a href="contacto.html">Contacto</a></li>
+				<li class="footer__link"><a href="bio.php">Bio</a></li>
+				<li class="footer__link"><a href="discografia.php">Discografía</a></li>
+				<li class="footer__link"><a href="contacto.php">Contacto</a></li>
 			</ul>
 		</div>
 		<div class="footer__autor">
