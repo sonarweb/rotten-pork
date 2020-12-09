@@ -39,10 +39,10 @@
 					<h3 class="small-title" id="trve">TRVE MISANTROPICAL DEATHGRIND</h3>
 					<p class="small-text">08/01/2020</p>
 					<div class="icons">
-						<a href="#"><i class="fab fa-spotify" id="spoty"></i></a>
-						<a href="#"><i class="fab fa-amazon" id="amazon"></i></a>
-						<a href="#"><i class="fab fa-apple" id="apple"></i></a>
-						<a href="#"><i class="fab fa-bandcamp" id="bandcamp"></i></a>
+						<a href="https://open.spotify.com/album/2PRdxrOlMfQ6KnR4irZIYo?si=oh_ghX34SnWOwZlHcJIRyg" target="_blank"><i class="fab fa-spotify" id="spoty"></i></a>
+						<a href="https://www.amazon.com/-/es/Rotten-Pork/dp/B08G1XJXQ8" target="_blank"><i class="fab fa-amazon" id="amazon"></i></a>
+						<a href="https://music.apple.com/album/trve-misantropical-deathgrind-ep/1527555336" target="_blank"><i class="fab fa-apple" id="apple"></i></a>
+						<a href="https://rottenpork.bandcamp.com/album/trve-misantropical-deathgrind" target="_blank"><i class="fab fa-bandcamp" id="bandcamp"></i></a>
 					</div>
 				</div>
 			</div>
@@ -52,10 +52,10 @@
 					<h3 class="small-title" id="tales">TALES OF FAILURE</h3>
 					<p class="small-text">08/08/2018</p>
 					<div class="icons">
-						<a href="#"><i class="fab fa-spotify" id="spoty"></i></a>
-						<a href="#"><i class="fab fa-amazon" id="amazon"></i></a>
-						<a href="#"><i class="fab fa-apple" id="apple"></i></a>
-						<a href="#"><i class="fab fa-bandcamp" id="bandcamp"></i></a>
+						<a href="https://open.spotify.com/album/1vFrpfoIq0bvi5t9spE2KY?si=XoP1bUq-T92Up39-aCwyhg" target="_blank"><i class="fab fa-spotify" id="spoty"></i></a>
+						<a href="https://www.amazon.com/Tales-Failure-Rotten-Pork/dp/B07GRQJN45" target="_blank"><i class="fab fa-amazon" id="amazon"></i></a>
+						<a href="https://music.apple.com/album/tales-of-failure/1433684906" target="_blank"><i class="fab fa-apple" id="apple"></i></a>
+						<a href="https://rottenpork.bandcamp.com/album/tales-of-failure-2018" target="_blank"><i class="fab fa-bandcamp" id="bandcamp"></i></a>
 					</div>
 				</div>
 			</div>
@@ -65,10 +65,9 @@
 					<h3 class="small-title" id="putrida">PÚTRIDA INSANIDAD</h3>
 					<p class="small-text">11/01/2012</p>
 					<div class="icons">
-						<a href="#"><i class="fab fa-spotify" id="spoty"></i></a>
-						<a href="#"><i class="fab fa-amazon" id="amazon"></i></a>
-						<a href="#"><i class="fab fa-apple" id="apple"></i></a>
-						<a href="#"><i class="fab fa-bandcamp" id="bandcamp"></i></a>
+						<a href="https://open.spotify.com/album/5eCMsYvof0vWPOTx6kSWI6?si=EfQxrmuTQDaTE_gd78BWrA" target="_blank"><i class="fab fa-spotify" id="spoty"></i></a>
+						<a href="https://music.apple.com/album/putrida-insanidad/1257698370" target="_blank"> <i class="fab fa-apple" id="apple"></i></a>
+						<a href="https://rottenpork.bandcamp.com/album/putrida-insanidad-ep" target="_blank"><i class="fab fa-bandcamp" id="bandcamp"></i></a>
 					</div>
 				</div>
 			</div>
