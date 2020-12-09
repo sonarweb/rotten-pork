@@ -16,7 +16,7 @@
 		<nav class="navigation" id="navigation">
             <div class="container">
                 <div class="mobile-navigation">
-                    <a class="logo" href="#">
+                    <a class="logo" href="index.php">
                         <img class="color" src="img/logo-rotten-pork-red.png">
                         <img class="white" src="img/logo-rotten-pork-white.png">
                     </a>
