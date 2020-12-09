@@ -27,15 +27,15 @@
 
     .btn {
         padding: 10px 20px;
-        background-color: $section;
-        color: $mainText;
+        background-color: $mainText;
+        color: $primary-color;
         border-radius: 0;
         transition: .2s;
         font-style: normal;
-        border: 1px solid $primary-color;
+        border: 2px solid $mainText;
       
         &:hover{
-            border: 1px solid $mainText;
+            border: 2px solid $mainText;
             background-color: $primary-color;
             color: $mainText;
               
@@ -45,7 +45,7 @@
           text-decoration: none;
           color: $mainText;
           text-transform: uppercase;
-          font-weight: 800;
+          font-weight: 600;
           font-size: .8rem;
       }
       

@@ -429,15 +429,15 @@ button {
 }
 .semblanza .btn {
   padding: 10px 20px;
-  background-color: #262626;
-  color: #F2F2F2;
+  background-color: #F2F2F2;
+  color: #df0837;
   border-radius: 0;
   transition: 0.2s;
   font-style: normal;
-  border: 1px solid #df0837;
+  border: 2px solid #F2F2F2;
 }
 .semblanza .btn:hover {
-  border: 1px solid #F2F2F2;
+  border: 2px solid #F2F2F2;
   background-color: #df0837;
   color: #F2F2F2;
 }
@@ -445,7 +445,7 @@ button {
   text-decoration: none;
   color: #F2F2F2;
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 0.8rem;
 }
 .semblanza p {
