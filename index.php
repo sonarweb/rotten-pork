@@ -27,7 +27,7 @@
 		<div class="semblanza__container">
 			<p class="semblanza__text">Rotten Pork mezcla la agresividad del Grindcore y la brutalidad del Death Metal con riffs melódicos orientados al Black Metal. 
 			</p>
-			<button class="btn"><a href="bio.html" class="bio-btn">Leer Biografía</a></button>
+			<button class="btn"><a href="bio.php" class="bio-btn">Leer Biografía</a></button>
 		</div>
 	</section>
 	<section class="discos">
