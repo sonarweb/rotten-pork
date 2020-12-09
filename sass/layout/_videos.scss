@@ -23,12 +23,15 @@
        text-align: center;
    }
    &__titulo{
-       font-weight: 600;
-       padding: 0 1rem;
+        padding: 0 1rem;
+        font-size: 1.2rem;
+        margin: 0;
+        font-weight: 800;
+       
    }
    &__año{
-       font-weight: 400;
-       font-size: 1rem;
+       font-weight: 700;
+       font-size: .8rem;
        line-height: 1.5rem;
        margin: 0;
    }

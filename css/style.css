@@ -671,12 +671,14 @@ button {
   text-align: center;
 }
 .videos__titulo {
-  font-weight: 600;
   padding: 0 1rem;
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: 800;
 }
 .videos__año {
-  font-weight: 400;
-  font-size: 1rem;
+  font-weight: 700;
+  font-size: 0.8rem;
   line-height: 1.5rem;
   margin: 0;
 }
@@ -713,6 +715,14 @@ button {
   color: #F2F2F2;
   margin-top: 1rem;
   text-align: center;
+}
+.dates__description h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin: 0;
+}
+.dates__description p {
+  font-size: 0.8rem;
 }
 .dates__evento {
   padding: 0 1rem;
