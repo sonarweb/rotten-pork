@@ -4,10 +4,10 @@
 		</div>
 		<div class="footer__social">
 			<ul class="footer__icons">
-				<li class="footer__icon"><a href="#"><i class="fa fa-facebook"></i></a></li>
-				<li class="footer__icon"><a href="#"><i class="fab fa-spotify"></i></a></li>
-				<li class="footer__icon"><a href="#"><i class="fab fa-bandcamp"></i></a></li>
-				<li class="footer__icon"><a href="#"><i class="fab fa-youtube"></i></a></li>
+				<li class="footer__icon"><a href="https://www.facebook.com/rottenpork"><i class="fa fa-facebook"></i></a></li>
+				<li class="footer__icon"><a href="https://open.spotify.com/artist/6yAir8RriqqAEKPasw0jnn?si=lFIMVC44T7mriygbux5F6A"><i class="fab fa-spotify"></i></a></li>
+				<li class="footer__icon"><a href="https://rottenpork.bandcamp.com/"><i class="fab fa-bandcamp"></i></a></li>
+				<li class="footer__icon"><a href="https://www.youtube.com/RottenPorkOfficial"><i class="fab fa-youtube"></i></a></li>
 			</ul>
 		</div>
 		<div class="footer__menu">
