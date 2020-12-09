@@ -434,12 +434,12 @@ button {
   border-radius: 0;
   transition: 0.2s;
   font-style: normal;
-  border: 2px solid #F2F2F2;
+  border: 2px solid #df0837;
 }
 .semblanza .btn:hover {
   border: 2px solid #F2F2F2;
   background-color: #df0837;
-  color: #F2F2F2;
+  color: #df0837;
 }
 .semblanza .bio-btn {
   text-decoration: none;

@@ -32,12 +32,12 @@
         border-radius: 0;
         transition: .2s;
         font-style: normal;
-        border: 2px solid $mainText;
+        border: 2px solid $primary-color;
       
         &:hover{
             border: 2px solid $mainText;
             background-color: $primary-color;
-            color: $mainText;
+            color: $primary-color;
               
         }
       }
