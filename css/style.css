@@ -219,7 +219,8 @@ button {
   background-color: #df0837;
 }
 .navigation .lang-dropdown .dropdown-item:hover {
-  background-color: #df0837;
+  background-color: #F2F2F2;
+  color: #df0837;
 }
 
 .navigation.colorized .logo img {
