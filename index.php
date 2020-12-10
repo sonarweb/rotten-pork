@@ -92,6 +92,7 @@
 			<h3>David</h3>
 			<p>Guitar</p>
 			<div class="brands">
+				<img src="img/daddario.png" alt="">
 				<img src="img/shecter.png" alt="">
 				<img src="img/positive-grid.png" alt="">
 			</div>
@@ -103,6 +104,7 @@
 			<div class="brands">
 				<img src="img/zildjian.png" alt="">
 				<img src="img/remo.png" alt="">
+				<img src="img/alesis-logo.png" alt="">
 			</div>
 		</div>
 		<div class="musician">
