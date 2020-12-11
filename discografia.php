@@ -1,4 +1,9 @@
 <?php
+    $title = 'Rotten Pork | Presskit';
+	$metaTitle = 'Discografía';
+	$description = 'Rotten Pork cuenta con dos EP, un Full Length y un Demo.';
+	$currentPage = 'Discografía';
+	include ('includes/header.php');
 	include ('includes/header.php');
 ?>
 <body>

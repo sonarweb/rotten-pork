@@ -1,4 +1,9 @@
 <?php
+    $title = 'Rotten Pork | Presskit';
+	$metaTitle = 'Contacto';
+	$description = 'Sí estás interesado en nuestro proyecto contáctanos';
+	$currentPage = 'contacto';
+	include ('includes/header.php');
 	include ('includes/header.php');
 ?>
             <main class="container-form">

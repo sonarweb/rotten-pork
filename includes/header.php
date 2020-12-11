@@ -8,8 +8,15 @@
         })(window,document,'script','dataLayer','GTM-T48332M');</script>
     <!-- End Google Tag Manager -->
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Rotten Pork | Presskit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="<?php echo $metaTitle ?>">
+    <meta name="description" content="<?php echo $description ?>">
+    <meta name="keywords" content="Death Metal, Metal Mexicano, Grindcore, Puerto Vallarta ">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Axl Sánchez">
+	<title><?php echo $title ?></title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
@@ -33,8 +40,8 @@
                     <div class="dropdown lang-dropdown d-lg-none">
                         <button class="btn btn-sm dropdown-toggle" type="button" id="lang-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Idioma</button>
                         <div class="dropdown-menu" aria-labelledby="lang-dropdown">
-                            <a class="dropdown-item" href="#">Inglés</a>
-                            <a class="dropdown-item" href="#">Espáñol</a>
+                            <a class="dropdown-item" href="en/index.php">Inglés</a>
+                            <a class="dropdown-item" href="index.php">Espáñol</a>
                         </div>
                     </div>
                     <button type="button" class="btn d-lg-none" id="show-sidebar"><i class="fa fa-bars fa-fw"></i></button>

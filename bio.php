@@ -1,4 +1,8 @@
 <?php
+    $title = 'Rotten Pork | Presskit';
+	$metaTitle = 'Biografía';
+	$description = 'Rotten Pork es una banda de DeathGrind con más de 10 años haciendo música brutal';
+	$currentPage = 'bio';
 	include ('includes/header.php');
 ?>
 <body>

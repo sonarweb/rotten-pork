@@ -1,4 +1,8 @@
 <?php
+    $title = 'Bio';
+    $metaTitle = 'Rotten Pork biography';
+    $description = 'With more than ten years Rotten Pork has become a Death Metal standard in Puerto Vallarta';
+    $currentPage = 'Bio';
 	include ('includes/header.php');
 ?>
 <body>

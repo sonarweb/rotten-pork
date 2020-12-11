@@ -1,4 +1,8 @@
 <?php
+    $title = 'Contact';
+    $metaTitle = 'Rotten Pork contact';
+    $description = 'If you are interested of our project please contact us';
+    $currentPage = 'Contact';
 	include ('includes/header.php');
 ?>
             <main class="container-form">

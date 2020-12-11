@@ -1,4 +1,8 @@
 <?php
+	$title = 'Rotten Pork | Presskit';
+	$metaTitle = 'Rotten Pork | Presskit';
+	$description = 'Sitio oficial de Rotten Pork';
+	$currentPage = 'Home';
 	include ('includes/header.php');
 ?>
 <div class="contenedor-header">

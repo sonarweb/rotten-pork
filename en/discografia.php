@@ -1,4 +1,8 @@
 <?php
+    $title = 'Music';
+    $description = 'Rotten Pork has two EP, one full length and one demo';
+    $metaTitle = 'Rotten Pork discography';
+    $currentPage = 'Music';
 	include ('includes/header.php');
 ?>
 <body>
