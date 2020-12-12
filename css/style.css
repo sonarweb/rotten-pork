@@ -752,11 +752,6 @@ button {
   background-size: cover;
   background-position: center;
 }
-.bio .top-title {
-  text-align: center;
-  margin-top: 0rem;
-  padding: 0;
-}
 .bio p {
   padding: 0 2rem 0 2rem;
   font-size: 1.2rem;
@@ -764,11 +759,37 @@ button {
   color: #F2F2F2;
   margin: 2rem 0 2rem 0;
 }
+@media only screen and (min-width: 768px) {
+  .bio p {
+    padding: 0 4rem 0 4rem;
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .bio p {
+    padding: 0 4rem 0 4rem;
+  }
+}
+.bio .top-title {
+  text-align: center;
+  margin-top: 0rem;
+  padding: 0;
+}
 .bio figure {
   width: 80%;
   display: flex;
   flex-flow: column;
   margin: auto;
+}
+@media only screen and (min-width: 768px) {
+  .bio figure {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .bio figure {
+    width: 50%;
+  }
 }
 .bio img {
   width: 100%;

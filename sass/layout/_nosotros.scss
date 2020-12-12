@@ -12,26 +12,40 @@
         background-size: cover;
         background-position: center;
     }
-   
-    .top-title{
-        
-        text-align: center;
-        margin-top: 0rem;
-        padding: 0;
-    }
     p{
         padding: 0 2rem 0 2rem;
         font-size: 1.2rem;
         line-height: 1.5;
         color: $mainText;
         margin: 2rem 0 2rem 0;
+        @include responsive (tab-port) {
+            padding: 0 4rem 0 4rem;
+            font-size: 1.5rem;
+        }
+        @include responsive (desktop) {
+            padding: 0 4rem 0 4rem;
+        }
+
     }
+   
+    .top-title{
+        text-align: center;
+        margin-top: 0rem;
+        padding: 0;
+    }
+    
     figure {
         width: 80%;
         display: flex;
         flex-flow: column;
-        
         margin: auto;
+        @include responsive (tab-port) {
+            width: 50%;
+        }
+        @include responsive (desktop) {
+            width: 50%;
+        }
+       
     }
     
     img {
