@@ -106,9 +106,10 @@
 			<h3>Sacha</h3>
 			<p>Drums</p>
 			<div class="brands">
-				<img src="img/zildjian.png" alt="">
 				<img src="img/remo.png" alt="">
+				<img src="img/vater.png" alt="">
 				<img src="img/alesis-logo.png" alt="">
+				<img src="img/axis.png" alt="">
 			</div>
 		</div>
 		<div class="musician">

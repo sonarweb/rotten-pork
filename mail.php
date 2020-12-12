@@ -11,5 +11,5 @@
     
     mail($name, $city, $mail, $mensaje, $header);
     echo "<script>alert('Correo enviado exitosamente')</script>";
-    echo "<script> setTimeout(\"location.href='contacto.html'\",1000)</script>";
+    echo "<script> setTimeout(\"location.href='contacto.php'\",1000)</script>";
 ?>

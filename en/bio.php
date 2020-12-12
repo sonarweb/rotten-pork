@@ -19,7 +19,7 @@
                 
             <p>With a demo and a single they started this journey at<span> local gigs in Puerto Vallarta</span>, which is when Ulises joined the band. A talented singer that grew up on quality growls and pig squeals.</p>
             <figure>
-                <img src="../img/rotten-primera-alineacion.png" alt="">
+                <img src="../img/rotten-primera-alineacion.jpg" alt="">
                 <figcaption>Javier, Ulises y David 2009</figcaption>
             </figure> 
             <p>In the year 2012 the first EP arrived, displaying a solid direction for the band. <span>"Pútrida Insanidad"</span> has 7 sick songs, in which you can hear a real <span>Grindcore and Slamming </span> influence.</p>    

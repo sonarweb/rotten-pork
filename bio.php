@@ -19,7 +19,7 @@
                 
             <p>Con un demo y un single comienza la travesía en los <span>escenarios vallartenses</span>, fue ahí cuando Ulises se une a la agrupación, un talentoso vocalista que desde una corta edad se caracterizó por la calidad de sus growls y pig squeals.</p>
             <figure>
-                <img src="img/rotten-primera-alineacion.png" alt="">
+                <img src="img/rotten-primera-alineacion.jpg" alt="">
                 <figcaption>Javier, Ulises y David en 2009</figcaption>
             </figure> 
             <p>Fue para el año 2012 cuando surgió el EP que definió un estilo sólido a la agrupación, <span>Pútrida Insanidad</span> consta de siete temas brutales. en los que se ve una marcada influencia del <span>Grindcore y el Slamming</span>.</p>    
