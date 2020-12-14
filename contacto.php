@@ -4,7 +4,6 @@
 	$description = 'Sí estás interesado en nuestro proyecto contáctanos';
 	$currentPage = 'contacto';
 	include ('includes/header.php');
-	include ('includes/header.php');
 ?>
             <main class="container-form">
                 <h1 class="top-title">Contacto</h1>
