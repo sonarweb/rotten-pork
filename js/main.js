@@ -101,5 +101,74 @@ $((function() {
 
 
 
+var slider =tns({
+  container: ".members",
+  items: 3,
+  center: true,
+  edgePadding: 30,
+  gutter: 30,
+  responsive: {
+    "200": {
+      items: 1,
+	  autoplay: true,
+	  center: true,
+    },
+    "600": {
+      items: 3
+    }
+  },
+  autoplay: true,
+  autoplayButtonOutput: false,
+  loop: true,
+  controls: false,	
+  mouseDrag: true,
+  slideBy: "page",
+  swipeAngle: false,
+  speed: 500,
+  navPosition: "bottom",
+  nav: true
+});
+
+
+	
+
+
+		var slider =tns({
+  container: ".cds",
+  items: 3,
+  center: true,
+  edgePadding: 30,
+  gutter: 30,
+  responsive: {
+    "200": {
+      items: 1,
+	  autoplay: false,
+	  center: true,
+    },
+    "600": {
+      items: 1,
+	  fixedWidth: 500
+    },
+	"900": {
+		items: 2,
+		fixedWidth: 400,
+		gutter: 40,
+		center: true
+	}
+  },
+  autoplay: true,
+  autoplayButtonOutput: false,
+  loop: true,
+  controls: false,	
+  mouseDrag: true,
+  slideBy: "page",
+  swipeAngle: false,
+  speed: 500,
+  navPosition: "bottom",
+  nav: true
+});
+
+
+	
 
 
