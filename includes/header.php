@@ -22,7 +22,7 @@
     <meta property="og:url" content="https://rottenporkofficial.com/">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://rottenporkofficial.com/img/rotten-pork-line-up.jpg">
+    <meta property="og:image" content="https://rottenporkofficial.com/img/rotten-portada.jpg">
 
 	<title><?php echo $title ?></title>
     <link rel="icon" href="img/favicon.png">
