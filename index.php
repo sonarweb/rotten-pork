@@ -132,6 +132,8 @@
 	</section>
 	<section class="videos">
 		<h2>VIDEOS OFICIALES</h2>
+		<div class="videos__contenedor">
+		<div class="videos__item">
 		<div class="embed-responsive embed-responsive-16by9">
 			<iframe class="videos__resp-iframe" src="https://www.youtube.com/embed/k9kvog-Wd-c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
@@ -141,6 +143,8 @@
 			Video: Unholy Films <br>
 		Audio: Paskkal Produkktions</p>
 		</div>
+		</div>
+		<div class="videos__item">
 		<div class="embed-responsive embed-responsive-16by9">
 			<iframe class="videos__resp-iframe" src="https://www.youtube.com/embed/OiV6gg8Wndk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
@@ -149,6 +153,8 @@
 			<p class="videos__año">Año: 2018 <br>
 			Video: Unholy Films <br>
 		Audio: Paskkal Produkktions</p>
+		</div>
+		</div>
 		</div>
 	</section>
 	<section class="dates">
@@ -210,7 +216,7 @@
 	  center: true,
     },
     "600": {
-      items: 2
+      items: 3
     }
   },
   autoplay: true,
@@ -242,8 +248,15 @@
 	  center: true,
     },
     "600": {
-      items: 2
-    }
+      items: 1,
+	  fixedWidth: 500
+    },
+	"900": {
+		items: 2,
+		fixedWidth: 400,
+		gutter: 40,
+		center: true
+	}
   },
   autoplay: true,
   autoplayButtonOutput: false,

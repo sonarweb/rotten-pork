@@ -17,6 +17,19 @@
         justify-content: center;
         flex-flow: column;
         align-items: center;
+        @include responsive (tab-port) {
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+
+        }
+        @include responsive (desktop) {
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
         
         
     }
@@ -26,6 +39,22 @@
         align-items: center;
         justify-content: center;
         padding-bottom: 1rem;
+        @include responsive (tab-port) {
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            width: 40%;
+            margin: 2rem 1rem;
+
+        }
+        @include responsive (desktop) {
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            width: 40%;
+            margin  : 2rem 1rem;
+        }
         
     }
     &__description{

@@ -459,6 +459,16 @@ button {
   background: #262626;
   text-align: center;
 }
+@media only screen and (min-width: 768px) {
+  .discos {
+    padding: 0 7rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .discos {
+    padding: 0 7rem;
+  }
+}
 .discos .btn {
   border: 1px solid #df0837;
   margin-bottom: 2rem;
@@ -471,6 +481,16 @@ button {
 .discos .btn:hover {
   background-color: #df0837;
   border: 1px solid #F2F2F2;
+}
+@media only screen and (min-width: 768px) {
+  .discos .btn {
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .discos .btn {
+    width: 200px;
+  }
 }
 .discos .btn a {
   text-decoration: none;
@@ -663,6 +683,23 @@ button {
   text-align: center;
   width: 100%;
   height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.videos__item {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .videos__item {
+    width: 800px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .videos__item {
+    width: 800px;
+  }
 }
 .videos .embed-responsive-16by9 {
   margin-top: 1.5rem;
@@ -706,12 +743,47 @@ button {
   flex-flow: column;
   align-items: center;
 }
+@media only screen and (min-width: 768px) {
+  .dates__flyers {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .dates__flyers {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+}
 .dates__gig {
   display: flex;
   flex-flow: column;
   align-items: center;
   justify-content: center;
   padding-bottom: 1rem;
+}
+@media only screen and (min-width: 768px) {
+  .dates__gig {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 40%;
+    margin: 2rem 1rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .dates__gig {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 2rem 1rem;
+  }
 }
 .dates__description {
   color: #F2F2F2;

@@ -131,61 +131,29 @@
 	</div>
 	</section>
 	<section class="videos">
-		<h2>Official VIDEOS</h2>
+		<h2>Official Videos</h2>
+		<div class="videos__contenedor">
+		<div class="videos__item">
 		<div class="embed-responsive embed-responsive-16by9">
 			<iframe class="videos__resp-iframe" src="https://www.youtube.com/embed/k9kvog-Wd-c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 		<div class="videos__description">
 			<h3 class="videos__titulo">Kaiju Crawling (On The Malecon)</h3>
-			<p class="videos__año">Año: 2020 <br>
+			<p class="videos__año">Year: 2020 <br>
 			Video: Unholy Films <br>
 		Audio: Paskkal Produkktions</p>
 		</div>
+		</div>
+		<div class="videos__item">
 		<div class="embed-responsive embed-responsive-16by9">
 			<iframe class="videos__resp-iframe" src="https://www.youtube.com/embed/OiV6gg8Wndk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 		<div class="videos__description">
 			<h3 class="videos__titulo">May-ham In The Lab</h3>
-			<p class="videos__año">Año: 2018 <br>
+			<p class="videos__año">Year: 2018 <br>
 			Video: Unholy Films <br>
 		Audio: Paskkal Produkktions</p>
 		</div>
-	</section>
-	<section class="dates">
-		<h2>Gigs</h2>
-		<div class="dates__flyers">
-			<div class="dates__gig">
-				<iframe class="embed-responsive embed-responsive-9by16" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fshownomercypromotions%2Fposts%2F10158492418574384&show_text=false&width=552&appId=123378147678621&height=497" width="300" height="497" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-				<div class="dates__description">
-					<h3 class="dates__evento">Death Alliance II (The Faceless, Equipoise y Origin)</h3>
-					<p class="dates__venue">City: Guadalajara, Jalisco <br>
-					Year: 2020</p>
-				</div>
-			</div>
-			<div class="dates__gig">
-				<iframe class="embed-responsive embed-responsive-9by16" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FColostomyPromotions%2Fposts%2F814245635643682&show_text=false&width=552&appId=123378147678621&height=497" width="300" height="497" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-				<div class="dates__description">
-					<h3 class="dates__evento">Do Not Resuscitate (Unidad Trauma)</h3>
-					<p class="dates__venue">City: Guadalajara, Jalisco <br>
-					Year: 2019</p>
-				</div>
-			</div>
-			<div class="dates__gig">
-				<iframe class="embed-responsive embed-responsive-9by16" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D1371212346342582%26id%3D714279338702556&show_text=false&width=552&appId=123378147678621&height=498" width="300" height="498" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-				<div class="dates__description">
-					<h3 class="dates__evento">Mexican GoreGrind Masters</h3>
-					<p class="dates__venue">City: Tula, Hidalgo <br>
-					Year: 2018</p>
-				</div>
-			</div>
-		<div class="dates__gig">
-			<iframe class="embed-responsive embed-responsive-9by16" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D229281004396585%26id%3D176130006378352&show_text=false&width=552&appId=123378147678621&height=496" width="300" height="496" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-			<div class="dates__description">
-				<h3 class="dates__evento">Monterrey Death Fest</h3>
-				<p class="dates__venue">City: Monterrey, Nuevo León <br>
-					Year: 2018 
-				</p>
-			</div>
 		</div>
 		</div>
 	</section>
@@ -230,7 +198,7 @@
 
 <script>
 		var slider =tns({
-  container: ".cds",
+			container: ".cds",
   items: 3,
   center: true,
   edgePadding: 30,
@@ -242,8 +210,15 @@
 	  center: true,
     },
     "600": {
-      items: 2
-    }
+      items: 1,
+	  fixedWidth: 500
+    },
+	"900": {
+		items: 2,
+		fixedWidth: 400,
+		gutter: 40,
+		center: true
+	}
   },
   autoplay: true,
   autoplayButtonOutput: false,
