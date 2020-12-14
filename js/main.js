@@ -147,7 +147,7 @@ var slider =tns({
     },
     "600": {
       items: 1,
-	  fixedWidth: 500
+	 
     },
 	"900": {
 		items: 2,
