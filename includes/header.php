@@ -42,7 +42,7 @@
 		<nav class="navigation" id="navigation">
             <div class="container">
                 <div class="mobile-navigation">
-                    <a class="logo" href="index.php">
+                    <a class="logo" href="https://rottenporkofficial.com/">
                         <img class="color" src="https://rottenporkofficial.com/img/logo-rotten-pork-red.png">
                         <img class="white" src="https://rottenporkofficial.com/img/logo-rotten-pork-white.png">
                     </a>
