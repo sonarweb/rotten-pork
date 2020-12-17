@@ -62,16 +62,16 @@
                     </div>
                     <ul class="nav main-navigation">
                         <li class="nav-item">
-                            <a class="nav-link hover-red <php? echo $currentPage == Home ? 'active' : '' ?>" href="index.php">Home</a>
+                            <a class="nav-link hover-red <php? echo $currentPage == Home ? 'active' : '' ?>" href="https://rottenporkofficial.com/en/">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link hover-red <php? echo $currentPage == Bio ? 'active' : '' ?>" href="bio.php">Bio</a>
+                            <a class="nav-link hover-red <php? echo $currentPage == Bio ? 'active' : '' ?>" href="https://rottenporkofficial.com/en/bio">Bio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link hover-red <php? echo $currentPage == Music ? 'active' : '' ?>" href="discografia.php">Music</a>
+                            <a class="nav-link hover-red <php? echo $currentPage == Music ? 'active' : '' ?>" href="https://rottenporkofficial.com/en/discografia">Music</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link hover-red <php? echo $currentPage == Contact ? 'active' : '' ?>" href="contacto.php">Contact</a>
+                            <a class="nav-link hover-red <php? echo $currentPage == Contact ? 'active' : '' ?>" href="https://rottenporkofficial.com/en/contacto">Contact</a>
                         </li>  
                     </ul>
                     <div class="dropdown lang-dropdown d-none d-lg-block">

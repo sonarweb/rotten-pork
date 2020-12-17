@@ -62,16 +62,16 @@
                     </div>
                     <ul class="nav main-navigation">
                         <li class="nav-item">
-                            <a class="nav-link hover-red" href="index.php">Inicio</a>
+                            <a class="nav-link hover-red" href="https://rottenporkofficial.com/">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link hover-red" href="bio.php">Bio</a>
+                            <a class="nav-link hover-red" href="https://rottenporkofficial.com/bio">Bio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link hover-red" href="discografia.php">Discografía</a>
+                            <a class="nav-link hover-red" href="https://rottenporkofficial.com/discografia">Discografía</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link hover-red" href="contacto.php">Contacto</a>
+                            <a class="nav-link hover-red" href="https://rottenporkofficial.com/contacto">Contacto</a>
                         </li>  
                     </ul>
                     <div class="dropdown lang-dropdown d-none d-lg-block">
