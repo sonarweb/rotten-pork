@@ -82,7 +82,7 @@
 		<h2>INTEGRANTES</h2>
 	<div class="members">
 		<div class="musician">
-			<img src="img/AXL FB.jpg" alt="">
+			<img src="https://rottenporkofficial.com/img/AXL%20FB.jpg" alt="">
 			<h3>Axl</h3>
 			<p>Guitar</p>
 			<div class="brands">
