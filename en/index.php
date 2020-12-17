@@ -7,7 +7,7 @@
 ?>
 <div class="contenedor-header">
 			  <div class="logo-fixed">
-				<img src="../img/logo-rotten-pork-red.png" alt="">
+				<img src="https://rottenporkofficial.com/img/logo-rotten-pork-red.png" alt="">
 				<h1 class="main-title">ROTTEN PORK</h1>
 				<p class="subtitle">BRUTAL DEATHGRIND FROM PUERTO VALLARTA</p>
 			</div>
@@ -15,13 +15,13 @@
 		<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
 		<div class="carousel-inner">	
 			  <div class="carousel-item active">
-				<img src="../img/rotten-pork-gig.jpg" class="d-block w-100" alt="...">
+				<img src="https://rottenporkofficial.com/img/rotten-pork-gig.jpg" class="d-block w-100" alt="...">
 			  </div>
 			  <div class="carousel-item">
-				<img src="../img/david-rotten-live.jpg" class="d-block w-100" alt="...">
+				<img src="https://rottenporkofficial.com/img/david-rotten-live.jpg" class="d-block w-100" alt="...">
 			  </div>
 			  <div class="carousel-item">
-				<img src="../img/axl-rotten-live.jpg" class="d-block w-100" alt="...">
+				<img src="https://rottenporkofficial.com/img/axl-rotten-live.jpg" class="d-block w-100" alt="...">
 			  </div>
 	    </div>
 	</div>	  
@@ -32,14 +32,14 @@
 			<p class="semblanza__text">
 				Rotten Pork mixes the fury of Grindcore and the brutality of Death Metal with melodic riffs oriented to Black Metal. 
 			</p>
-			<button class="btn"><a href="bio.php" class="bio-btn">Read Bio</a></button>
+			<button class="btn"><a href="https://rottenporkofficial.com/en/bio" class="bio-btn">Read Bio</a></button>
 		</div>
 	</section>
 	<section class="discos">
 		<h2>Music</h2>
 		<div class="cds">
 			<div class="cd">
-				<img src="../img/misantropical.jpg" alt="">
+				<img src="https://rottenporkofficial.com/img/misantropical.jpg" alt="">
 				<div class="cover-social">
 					<h3 class="small-title" id="trve">TRVE MISANTROPICAL DEATHGRIND</h3>
 					<p class="small-text">08/01/2020</p>
@@ -52,7 +52,7 @@
 				</div>
 			</div>
 			<div class="cd">
-				<img src="../img/tales-failure.jpg" alt="">
+				<img src="https://rottenporkofficial.com/img/tales-failure.jpg" alt="">
 				<div class="cover-social">
 					<h3 class="small-title" id="tales">TALES OF FAILURE</h3>
 					<p class="small-text">08/08/2018</p>
@@ -65,7 +65,7 @@
 				</div>
 			</div>
 			<div class="cd">
-				<img src="../img/putrida.jpg" alt="">
+				<img src="https://rottenporkofficial.com/img/putrida.jpg" alt="">
 				<div class="cover-social">
 					<h3 class="small-title" id="putrida">PÚTRIDA INSANIDAD</h3>
 					<p class="small-text">11/01/2012</p>
@@ -77,55 +77,81 @@
 				</div>
 			</div>
 		</div>
-		<button class="btn"><a href="discografia.php" class="disco-btn">Full Discography</a></button>
+		<button class="btn"><a href="https://rottenporkofficial.com/en/discografia" class="disco-btn">Full Discography</a></button>
 	</section>
 	<section class="integrantes">
 		<h2>Lineup</h2>
-	<div class="members">
+		<div class="members">
 		<div class="musician">
-			<img src="../img/AXL FB.jpg" alt="">
+			<img src="img/AXL FB.jpg" alt="">
 			<h3>Axl</h3>
 			<p>Guitar</p>
 			<div class="brands">
-				<img src="../img/boss.png" alt="">
-				<img src="../img/jackson.png" alt="">
-				<img src="../img/daddario.png" alt="">
+				<a href="https://www.boss.info/global/">
+					<img src="https://rottenporkofficial.com/img/boss.png" alt="">
+				</a>
+				<a href="https://www.jacksonguitars.com/">
+					<img src="https://rottenporkofficial.com/img/jackson.png" alt="">
+				</a>
+				<a href="https://www.daddario.com/">
+					<img src="https://rottenporkofficial.com/img/daddario.png" alt="">
+				</a>
+				
 			</div>
 		</div>
 		<div class="musician">
-			<img src="../img/DAVID FB.jpg" alt="">
+			<img src="https://rottenporkofficial.com/img/DAVID%20FB.jpg" alt="">
 			<h3>David</h3>
 			<p>Guitar</p>
 			<div class="brands">
-				<img src="../img/daddario.png" alt="">
-				<img src="../img/shecter.png" alt="">
-				<img src="../img/positive-grid.png" alt="">
+				<a href="https://www.daddario.com/">
+					<img src="https://rottenporkofficial.com/img/daddario.png" alt="">
+				</a>
+				<a href="https://www.schecterguitars.com/">
+					<img src="https://rottenporkofficial.com/img/shecter.png" alt="">
+				</a>
+				<a href="https://www.positivegrid.com/">
+					<img src="https://rottenporkofficial.com/img/positive-grid.png" alt="">
+				</a>
 			</div>
 		</div>
 		<div class="musician">
-			<img src="../img/SACHA FB.jpg" alt="">
+			<img src="https://rottenporkofficial.com/img/SACHA%20FB.jpg" alt="">
 			<h3>Sacha</h3>
 			<p>Drums</p>
 			<div class="brands">
-				<img src="../img/zildjian.png" alt="">
-				<img src="../img/remo.png" alt="">
-				<img src="../img/alesis-logo.png" alt="">
+				<a href="https://remo.com/">
+					<img src="https://rottenporkofficial.com/img/remo.png" alt="">
+				</a>
+				<a href="https://www.vater.com/">
+					<img src="https://rottenporkofficial.com/img/vater.png" alt="">
+				</a>
+				<a href="https://www.alesis.com/">
+					<img src="https://rottenporkofficial.com/img/alesis-logo.png" alt="">
+				</a>
+				<a href="https://axispercussion.com/">
+					<img src="https://rottenporkofficial.com/img/axis.png" alt="">
+				</a>
 			</div>
 		</div>
 		<div class="musician">
-			<img src="../img/ULISES FB.jpg" alt="">
+			<img src="https://rottenporkofficial.com/img/ULISES%20FB.jpg" alt="">
 			<h3>Ulises</h3>
 			<p>Growls</p>
 			<div class="brands">
-				<img src="../img/shure-logo.png" alt="">
+			<a href="https://www.shure.com/">
+				<img src="https://rottenporkofficial.com/img/shure-logo.png" alt="">
+			</a>	
 			</div>
 		</div>
 		<div class="musician">
-			<img src="../img/JAVIER FB.jpg" alt="">
+			<img src="https://rottenporkofficial.com/img/JAVIER%20FB.jpg" alt="">
 			<h3>Javier</h3>
 			<p>Bass</p>
 			<div class="brands">
-				<img src="../img/fender.png" alt="">
+				<a href="https://www.fender.com/">
+					<img src="https://rottenporkofficial.com/img/fender.png" alt="">
+				</a>
 			</div>
 		</div>
 	</div>

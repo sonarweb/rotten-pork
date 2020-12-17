@@ -19,7 +19,7 @@
                 
             <p>Con un demo y un single comienza la travesía en los <span>escenarios vallartenses</span>, fue ahí cuando Ulises se une a la agrupación, un talentoso vocalista que desde una corta edad se caracterizó por la calidad de sus growls y pig squeals.</p>
             <figure>
-                <img src="img/rotten-primera-alineacion.jpg" alt="">
+                <img src="https://rottenporkofficial.com/img/rotten-primera-alineacion.jpg" alt="">
                 <figcaption>Javier, Ulises y David en 2009</figcaption>
             </figure> 
             <p>Fue para el año 2012 cuando surgió el EP que definió un estilo sólido a la agrupación, <span>Pútrida Insanidad</span> consta de siete temas brutales. en los que se ve una marcada influencia del <span>Grindcore y el Slamming</span>.</p>    
@@ -28,7 +28,7 @@
                 
             <p>Hasta la fecha la agrupación se mantiene con <span>una alineación estable</span> con la llegada de Axl como guitarrista, quien a partir del 2014 forma parte del proyecto.</p> 
             <figure>
-                <img src="img/rotten-pork-2012.jpg" alt="">
+                <img src="https://rottenporkofficial.com/img/rotten-pork-2012.jpg" alt="">
                 <figcaption>Rotten Pork Alineación 2014
                     <p class="credit">📷 Giovanni Rodríguez</p>
                 </figcaption>
@@ -41,13 +41,13 @@
             <section class="container-photos">
             <div class="shows">    
                 <div class="photo">
-                    <img src="img/rotten-live-qro.jpg" alt="">
+                    <img src="https://rottenporkofficial.com/img/rotten-live-qro.jpg" alt="">
                 </div>
                 <div class="photo">
-                    <img src="img/rotten-pork-escenario.jpg" alt="">
+                    <img src="https://rottenporkofficial.com/img/rotten-pork-escenario.jpg" alt="">
                 </div>
                 <div class="photo">
-                    <img src="img/rotten-pork-live-gig.jpg" alt="">
+                    <img src="https://rottenporkofficial.com/img/rotten-pork-live-gig.jpg" alt="">
                 </div>
             </div>
             </section>

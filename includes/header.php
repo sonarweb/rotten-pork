@@ -43,14 +43,14 @@
             <div class="container">
                 <div class="mobile-navigation">
                     <a class="logo" href="index.php">
-                        <img class="color" src="img/logo-rotten-pork-red.png">
-                        <img class="white" src="img/logo-rotten-pork-white.png">
+                        <img class="color" src="https://rottenporkofficial.com/img/logo-rotten-pork-red.png">
+                        <img class="white" src="https://rottenporkofficial.com/img/logo-rotten-pork-white.png">
                     </a>
                     <div class="dropdown lang-dropdown d-lg-none">
                         <button class="btn btn-sm dropdown-toggle" type="button" id="lang-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Idioma</button>
                         <div class="dropdown-menu" aria-labelledby="lang-dropdown">
-                            <a class="dropdown-item" href="en/index.php">Inglés</a>
-                            <a class="dropdown-item" href="index.php">Espáñol</a>
+                            <a class="dropdown-item" href="https://rottenporkofficial.com/en/">Inglés</a>
+                            <a class="dropdown-item" href="https://rottenporkofficial.com/">Espáñol</a>
                         </div>
                     </div>
                     <button type="button" class="btn d-lg-none" id="show-sidebar"><i class="fa fa-bars fa-fw"></i></button>
@@ -77,8 +77,8 @@
                     <div class="dropdown lang-dropdown d-none d-lg-block">
                         <button class="btn btn-sm dropdown-toggle" type="button" id="lang-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Idioma</button>
                         <div class="dropdown-menu" aria-labelledby="lang-dropdown">
-                            <a class="dropdown-item" href="#">Inglés</a>
-                            <a class="dropdown-item" href="#">Espáñol</a>
+                            <a class="dropdown-item" href="https://rottenporkofficial.com/en/">Inglés</a>
+                            <a class="dropdown-item" href="https://rottenporkofficial.com/">Espáñol</a>
                         </div>
                     </div>
                     <div class="sidebar-bottom">

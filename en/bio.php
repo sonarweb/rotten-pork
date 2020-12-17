@@ -19,7 +19,7 @@
                 
             <p>With a demo and a single they started this journey at<span> local gigs in Puerto Vallarta</span>, which is when Ulises joined the band. A talented singer that grew up on quality growls and pig squeals.</p>
             <figure>
-                <img src="../img/rotten-primera-alineacion.jpg" alt="">
+                <img src="https://rottenporkofficial.com/img/rotten-primera-alineacion.jpg" alt="">
                 <figcaption>Javier, Ulises y David 2009</figcaption>
             </figure> 
             <p>In the year 2012 the first EP arrived, displaying a solid direction for the band. <span>"Pútrida Insanidad"</span> has 7 sick songs, in which you can hear a real <span>Grindcore and Slamming </span> influence.</p>    
@@ -28,7 +28,7 @@
                 
             <p>Until this day the band holds a <span>stable line-up </span> with Axl’s arrival as a guitar player in the year 2014.</p> 
             <figure>
-                <img src="../img/rotten-pork-2012.jpg" alt="">
+                <img src="https://rottenporkofficial.com/img/rotten-pork-2012.jpg" alt="">
                 <figcaption>Rotten Pork 2014 lineup
                     <p class="credit">📷 Giovanni Rodríguez</p>
                 </figcaption>
@@ -41,13 +41,13 @@
             <section class="container-photos">
             <div class="shows">    
                 <div class="photo">
-                    <img src="../img/rotten-live-qro.jpg" alt="">
+                    <img src="https://rottenporkofficial.com/img/rotten-live-qro.jpg" alt="">
                 </div>
                 <div class="photo">
-                    <img src="../img/rotten-pork-escenario.jpg" alt="">
+                    <img src="https://rottenporkofficial.com/img/rotten-pork-escenario.jpg" alt="">
                 </div>
                 <div class="photo">
-                    <img src="../img/rotten-pork-live-gig.jpg" alt="">
+                    <img src="https://rottenporkofficial.com/img/rotten-pork-live-gig.jpg" alt="">
                 </div>
             </div>
             </section>
