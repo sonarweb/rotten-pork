@@ -6,7 +6,9 @@
 	include ('includes/header.php');
 ?>
             <main class="container-form">
+            <div class="header-form"></div>
                 <h1 class="top-title">Contacto</h1>
+                <p>Si estás interesado en nuestro proyecto, o si eres algún promotor, escríbenos por medio de este formulario. Nos pondremos en contacto contigo lo antes posible.</p>
                 <section class="formulario">
                     <form action= "mail.php" method="POST">
                     <div class="form-group">

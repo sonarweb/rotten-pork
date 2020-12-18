@@ -945,34 +945,81 @@ p {
   margin: 2rem 0 2rem 0;
 }
 
-.container-form {
-  margin-top: 6rem;
+.container-form .header-form {
+  background-image: url(../img/putrid-back.jpg);
+  padding-top: 0;
+  position: relative;
+  margin-bottom: 2rem;
+  height: 25vh;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .container-form .header-form {
+    height: 20vh;
+    background-position: center;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .container-form .header-form {
+    height: 20vh;
+    background-position: top;
+    background-attachment: fixed;
+  }
+}
+.container-form p {
+  line-height: 1.5rem;
+}
+@media only screen and (min-width: 768px) {
+  .container-form p {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .container-form p {
+    text-align: center;
+    padding: 0 8rem;
+  }
 }
 
 form {
   margin-top: 2rem;
+  padding: 0;
 }
 
 .formulario {
+  padding: 0;
   width: 100%;
   display: flex;
   flex-flow: column;
   align-items: center;
-  justify-content: center;
   margin: 0;
 }
 .formulario .form-group {
-  width: 250px;
+  width: 280px;
+  font-weight: 700;
   color: #F2F2F2;
 }
 .formulario .form-group #form-text {
   height: 80px;
-  padding-top: 4rem;
   margin-bottom: 2rem;
+}
+@media only screen and (min-width: 768px) {
+  .formulario .form-group {
+    width: 500px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .formulario .form-group {
+    width: 500px;
+  }
 }
 .formulario .form-control {
   padding: 0.3rem 0.4rem;
-  background: #0D0D0D;
+  background: #262626;
   color: #F2F2F2;
   height: 30px;
   border: 1px solid #df0837;
@@ -980,6 +1027,10 @@ form {
   flex-flow: column;
   justify-content: center;
   align-items: center;
+}
+
+::selection {
+  background-color: #df0837 !important;
 }
 
 #map {

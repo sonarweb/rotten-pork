@@ -1,41 +1,84 @@
 .container-form{
-    margin-top: 6rem;
+  
+    .header-form{
+        background-image: url(../img/putrid-back.jpg);
+        padding-top: 0;
+        position: relative;
+        margin-bottom: 2rem;
+        height: 25vh;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: top;
+        width: 100%;
+        @include responsive (tab-port) {
+           height: 20vh;
+           background-position: center;
+        }
+        @include responsive (desktop) {
+            height: 20vh;
+            background-position: top;
+            background-attachment: fixed;
+        }
+        
+    }
+    p{
+        line-height: 1.5rem;
+        @include responsive (tab-port) {
+            text-align: center;
+        }
+        @include responsive (desktop) {
+            text-align: center;
+            padding: 0 8rem;
+            
+        }
+    }
 }
 form{
     margin-top: 2rem;
+    padding: 0;
 }
 .formulario{
+    padding: 0;
     width: 100%;
     display: flex;
     flex-flow: column;
     align-items: center;
-    justify-content: center;  
+     
     margin: 0;
     
     .form-group{
-        width: 250px;
+        width: 280px;
+        font-weight: 700;
         color: $mainText;
         #form-text{
             height: 80px;
-            padding-top: 4rem;
             margin-bottom: 2rem;
+        }
+        @include responsive (tab-port) {
+            width: 500px;
+        }
+        @include responsive (desktop) {
+            width: 500px;
         }
     }
     
     .form-control{
         padding: .300rem .400rem;
-        background: $background;
+        background: $section;
         color: $mainText;
         height: 30px;
         border: 1px solid $primary-color;
         display: flex;
         flex-flow: column;
         justify-content: center;
-        align-items: center;
-        
+        align-items: center; 
     }
 }
 
+::selection{
+    background-color: $primary-color !important; 
+}
 #map{
     margin-top: 6rem;
     height: 30vh;
