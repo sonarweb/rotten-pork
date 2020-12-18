@@ -30,8 +30,8 @@
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
 	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700;900&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/235ca587ad.js" crossorigin="anonymous"></script>
-	<script src="../js/main.js" defer type="text/javascript"></script>
+	<script src="https://kit.fontawesome.com/235ca587ad.js" crossorigin="anonymous" defer></script>
+	<script src="../js/main.js" defer type="text/javascript" defer></script>
 </head>
 <body>
     <!-- Google Tag Manager (noscript) -->
