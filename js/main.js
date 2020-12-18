@@ -110,7 +110,7 @@ $((function() {
 
 
 
-var slider =tns({
+var slider = tns({
   container: ".members",
   items: 3,
   center: true,

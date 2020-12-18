@@ -161,7 +161,7 @@
 		<div class="videos__contenedor">
 		<div class="videos__item">
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="videos__resp-iframe" src="https://www.youtube.com/embed/k9kvog-Wd-c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe class="videos__resp-iframe" src="" data-src="https://www.youtube.com/embed/k9kvog-Wd-c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 		<div class="videos__description">
 			<h3 class="videos__titulo">Kaiju Crawling (On The Malecon)</h3>
@@ -172,7 +172,7 @@
 		</div>
 		<div class="videos__item">
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="videos__resp-iframe" src="https://www.youtube.com/embed/OiV6gg8Wndk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe class="videos__resp-iframe" src="" data-src="https://www.youtube.com/embed/OiV6gg8Wndk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 		<div class="videos__description">
 			<h3 class="videos__titulo">May-ham In The Lab</h3>
@@ -188,7 +188,7 @@
 	include ('includes/footer.php');
 ?>
 	
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js" defer></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js" ></script>
 	<!-- JS, Popper.js, and jQuery -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
