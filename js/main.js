@@ -1,11 +1,12 @@
-window.onload = function (){
-    var hndl = document.getElementsByTagName('iframe');
-    for(var i = 0; i < hndl.length; i++) {
-        if (hndl[i].getAttribute('data-src')){
-            hndl[i].setAttribute('src', hndl[i].getAttribute('data-src'));
-        }
-    }
-}
+/*Parsing Iframe*/
+function init() {
+    var vidDefer = document.getElementsByTagName('iframe');
+    for (var i=0; i<vidDefer.length; i++) {
+    if(vidDefer[i].getAttribute('data-src')) {
+    vidDefer[i].setAttribute('src',vidDefer[i].getAttribute('data-src'));
+    } } }
+
+    window.onload = init;
 
 !function(e) {
     var t= {
