@@ -1,6 +1,6 @@
 <footer class="footer">
 		<div class="footer__logo">
-			<a href="index.php"><img src="img/logo-rotten-pork-white.png" alt=""></a>
+			<a href="index.php"><img src="https://rottenporkofficial.com/img/logo-rotten-pork-white.png" alt="Rotten Pork white logo"></a>
 		</div>
 		<div class="footer__social">
 			<ul class="footer__icons">
