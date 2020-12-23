@@ -8,7 +8,7 @@
         })(window,document,'script','dataLayer','GTM-T48332M');</script>
     <!-- End Google Tag Manager -->
 	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="title" content="<?php echo $metaTitle ?>">
     <meta name="description" content="<?php echo $description ?>">
     <meta name="keywords" content="Death Metal, Metal Mexicano, Grindcore, Puerto Vallarta ">
