@@ -160,7 +160,7 @@
 		<div class="videos__contenedor">
 		<div class="videos__item">
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="videos__resp-iframe" src="" data-src="https://www.youtube.com/embed/k9kvog-Wd-c" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe class="videos__resp-iframe" src="" data-src="https://www.youtube.com/embed/k9kvog-Wd-c" class="lazyload" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 		<div class="videos__description">
 			<h3 class="videos__titulo">Kaiju Crawling (On The Malecon)</h3>
@@ -171,7 +171,7 @@
 		</div>
 		<div class="videos__item">
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="videos__resp-iframe" src="" data-src="https://www.youtube.com/embed/OiV6gg8Wndk" loading="lazy" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe class="videos__resp-iframe" src="" data-src="https://www.youtube.com/embed/OiV6gg8Wndk" class="lazyload" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
 		<div class="videos__description">
 			<h3 class="videos__titulo">May-ham In The Lab</h3>
@@ -186,7 +186,7 @@
 		<h2>EVENTOS</h2>
 		<div class="dates__flyers">
 			<div class="dates__gig">
-				<iframe class="embed-responsive embed-responsive-9by16" src="" data-src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fshownomercypromotions%2Fposts%2F10158492418574384&show_text=false&width=552&appId=123378147678621&height=497" loading="lazy" width="300" height="497" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+				<iframe class="embed-responsive embed-responsive-9by16" src="" data-src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fshownomercypromotions%2Fposts%2F10158492418574384&show_text=false&width=552&appId=123378147678621&height=497" class="lazyload" width="300" height="497" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 				<div class="dates__description">
 					<h3 class="dates__evento">Death Alliance II (The Faceless, Equipoise y Origin)</h3>
 					<p class="dates__venue">Lugar: Guadalajara, Jalisco <br>
@@ -194,7 +194,7 @@
 				</div>
 			</div>
 			<div class="dates__gig">
-				<iframe class="embed-responsive embed-responsive-9by16" src="" data-src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FColostomyPromotions%2Fposts%2F814245635643682&show_text=false&width=552&appId=123378147678621&height=497" loading="lazy" width="300" height="497" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+				<iframe class="embed-responsive embed-responsive-9by16" src="" data-src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FColostomyPromotions%2Fposts%2F814245635643682&show_text=false&width=552&appId=123378147678621&height=497" class="lazyload" width="300" height="497" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 				<div class="dates__description">
 					<h3 class="dates__evento">Do Not Resuscitate (Unidad Trauma)</h3>
 					<p class="dates__venue">Lugar: Guadalajara, Jalisco <br>
@@ -202,7 +202,7 @@
 				</div>
 			</div>
 			<div class="dates__gig">
-				<iframe class="embed-responsive embed-responsive-9by16" src="" data-src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D1371212346342582%26id%3D714279338702556&show_text=false&width=552&appId=123378147678621&height=498" loading="lazy" width="300" height="498" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+				<iframe class="embed-responsive embed-responsive-9by16" src="" data-src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D1371212346342582%26id%3D714279338702556&show_text=false&width=552&appId=123378147678621&height=498" class="lazyload" width="300" height="498" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 				<div class="dates__description">
 					<h3 class="dates__evento">Mexican GoreGrind Masters</h3>
 					<p class="dates__venue">Lugar: Tula, Hidalgo <br>
@@ -210,7 +210,7 @@
 				</div>
 			</div>
 		<div class="dates__gig">
-			<iframe class="embed-responsive embed-responsive-9by16" src="" data-src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D229281004396585%26id%3D176130006378352&show_text=false&width=552&appId=123378147678621&height=496" loading="lazy" width="300" height="496" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+			<iframe class="embed-responsive embed-responsive-9by16" src="" data-src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3D229281004396585%26id%3D176130006378352&show_text=false&width=552&appId=123378147678621&height=496" class="lazyload" width="300" height="496" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 			<div class="dates__description">
 				<h3 class="dates__evento">Monterrey Death Fest</h3>
 				<p class="dates__venue">Lugar: Monterrey, Nuevo León <br>

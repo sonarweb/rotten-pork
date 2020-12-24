@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sonarweb/rotten-pork/issues"
   },
-  "homepage": "https://github.com/sonarweb/rotten-pork#readme"
+  "homepage": "https://github.com/sonarweb/rotten-pork#readme",
+  "dependencies": {
+    "lazysizes": "^5.3.0-beta1"
+  }
 }
