@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/sonarweb/rotten-pork#readme",
   "dependencies": {
-    "lazysizes": "^5.3.0-beta1",
     "tiny-slider": "^2.9.3"
   }
 }
