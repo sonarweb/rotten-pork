@@ -161,7 +161,11 @@
 		<div class="videos__contenedor">
 		<div class="videos__item">
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="videos__resp-iframe" src="" data-src="https://www.youtube.com/embed/k9kvog-Wd-c" class="lazyload" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe frameborder="0"
+				class="lazyload"
+    			allowfullscreen=""
+    			src="//www.youtube.com/embed/k9kvog-Wd-c">
+			</iframe>
 		</div>
 		<div class="videos__description">
 			<h3 class="videos__titulo">Kaiju Crawling (On The Malecon)</h3>
@@ -172,7 +176,11 @@
 		</div>
 		<div class="videos__item">
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="videos__resp-iframe" src="" data-src="https://www.youtube.com/embed/OiV6gg8Wndk" class="lazyload" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe frameborder="0"
+				class="lazyload"
+    			allowfullscreen=""
+    			src="//www.youtube.com/embed/OiV6gg8Wndk">
+			</iframe>
 		</div>
 		<div class="videos__description">
 			<h3 class="videos__titulo">May-ham In The Lab</h3>
