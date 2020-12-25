@@ -38,7 +38,7 @@
 		<h2>Discografía</h2>
 		<div class="cds">
 			<div class="cd">
-				<img src="https://rottenporkofficial.com/img/misantropical.jpg" alt="">
+				<img data-src="https://rottenporkofficial.com/img/misantropical.jpg" class="lazyload" alt="">
 				<div class="cover-social">
 					<h3 class="small-title" id="trve">TRVE MISANTROPICAL DEATHGRIND</h3>
 					<p class="small-text">08/01/2020</p>
@@ -51,7 +51,7 @@
 				</div>
 			</div>
 			<div class="cd">
-				<img src="https://rottenporkofficial.com/img/tales-failure.jpg" alt="">
+				<img data-src="https://rottenporkofficial.com/img/tales-failure.jpg" class="lazyload" alt="">
 				<div class="cover-social">
 					<h3 class="small-title" id="tales">TALES OF FAILURE</h3>
 					<p class="small-text">08/08/2018</p>
@@ -64,7 +64,7 @@
 				</div>
 			</div>
 			<div class="cd">
-				<img src="https://rottenporkofficial.com/img/putrida.jpg" alt="">
+				<img data-src="https://rottenporkofficial.com/img/putrida.jpg" class="lazyload"alt="">
 				<div class="cover-social">
 					<h3 class="small-title" id="putrida">PÚTRIDA INSANIDAD</h3>
 					<p class="small-text">11/01/2012</p>
@@ -82,7 +82,7 @@
 		<h2>INTEGRANTES</h2>
 	<div class="members">
 		<div class="musician">
-			<img src="https://rottenporkofficial.com/img/AXL%20FB.jpg" alt="">
+			<img data-src="https://rottenporkofficial.com/img/AXL%20FB.jpg" class="lazyload" alt="">
 			<h3>Axl</h3>
 			<p>Guitar</p>
 			<div class="brands">
@@ -99,7 +99,7 @@
 			</div>
 		</div>
 		<div class="musician">
-			<img src="https://rottenporkofficial.com/img/DAVID%20FB.jpg" alt="">
+			<img data-src="https://rottenporkofficial.com/img/DAVID%20FB.jpg" class="lazyload" alt="">
 			<h3>David</h3>
 			<p>Guitar</p>
 			<div class="brands">
@@ -115,7 +115,7 @@
 			</div>
 		</div>
 		<div class="musician">
-			<img src="https://rottenporkofficial.com/img/SACHA%20FB.jpg" alt="">
+			<img data-src="https://rottenporkofficial.com/img/SACHA%20FB.jpg" class="lazyload" alt="">
 			<h3>Sacha</h3>
 			<p>Drums</p>
 			<div class="brands">
@@ -134,7 +134,7 @@
 			</div>
 		</div>
 		<div class="musician">
-			<img src="https://rottenporkofficial.com/img/ULISES%20FB.jpg" alt="">
+			<img data-src="https://rottenporkofficial.com/img/ULISES%20FB.jpg" class="lazyload" alt="">
 			<h3>Ulises</h3>
 			<p>Growls</p>
 			<div class="brands">
@@ -144,7 +144,7 @@
 			</div>
 		</div>
 		<div class="musician">
-			<img src="https://rottenporkofficial.com/img/JAVIER%20FB.jpg" alt="">
+			<img data-src="https://rottenporkofficial.com/img/JAVIER%20FB.jpg" class="lazyload" alt="">
 			<h3>Javier</h3>
 			<p>Bass</p>
 			<div class="brands">
