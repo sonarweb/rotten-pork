@@ -83,7 +83,7 @@
 		<h2>Lineup</h2>
 		<div class="members">
 		<div class="musician">
-			<img src="https://rottenporkofficial.com/img/AXL%20FB.jpg" alt="">
+			<img data-src="https://rottenporkofficial.com/img/AXL%20FB.jpg" class="lazyload" alt="">
 			<h3>Axl</h3>
 			<p>Guitar</p>
 			<div class="brands">
@@ -100,7 +100,7 @@
 			</div>
 		</div>
 		<div class="musician">
-			<img src="https://rottenporkofficial.com/img/DAVID%20FB.jpg" alt="">
+			<img data-src="https://rottenporkofficial.com/img/DAVID%20FB.jpg" class="lazyload" alt="">
 			<h3>David</h3>
 			<p>Guitar</p>
 			<div class="brands">
@@ -116,7 +116,7 @@
 			</div>
 		</div>
 		<div class="musician">
-			<img src="https://rottenporkofficial.com/img/SACHA%20FB.jpg" alt="">
+			<img data-src="https://rottenporkofficial.com/img/SACHA%20FB.jpg" class="lazyload" alt="">
 			<h3>Sacha</h3>
 			<p>Drums</p>
 			<div class="brands">
@@ -135,7 +135,7 @@
 			</div>
 		</div>
 		<div class="musician">
-			<img src="https://rottenporkofficial.com/img/ULISES%20FB.jpg" alt="">
+			<img data-src="https://rottenporkofficial.com/img/ULISES%20FB.jpg" class="lazyload" alt="">
 			<h3>Ulises</h3>
 			<p>Growls</p>
 			<div class="brands">
@@ -145,7 +145,7 @@
 			</div>
 		</div>
 		<div class="musician">
-			<img src="https://rottenporkofficial.com/img/JAVIER%20FB.jpg" alt="">
+			<img data-src="https://rottenporkofficial.com/img/JAVIER%20FB.jpg" class="lazyload" alt="">
 			<h3>Javier</h3>
 			<p>Bass</p>
 			<div class="brands">
