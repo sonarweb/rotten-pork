@@ -25,7 +25,7 @@
     <meta property="og:image" content="https://rottenporkofficial.com/img/rotten-portada.jpg">
 
 	<title><?php echo $title ?></title>
-    <link rel="icon" href="img/favicon.png">
+    <link rel="icon" href="https://rottenporkofficial.com/img/favicon.png">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
