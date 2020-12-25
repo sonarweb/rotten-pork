@@ -161,7 +161,7 @@
 		<div class="videos__contenedor">
 		<div class="videos__item">
 		<div class="embed-responsive embed-responsive-16by9">
-			<iframe id="player frameborder="0"
+			<iframe frameborder="0"
 				class="lazyload"
     			allowfullscreen=""
     			src="//www.youtube.com/embed/k9kvog-Wd-c">
