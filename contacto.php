@@ -28,7 +28,7 @@
                           <textarea class="form-control" name="mensaje" id="form-text" rows="3" required></textarea>
                         </div>
                     <div class="contenedor-send">
-                        <button type="submit" id="form" name="submit" class="btn send g-recaptcha" data-sitekey="6Lc23BUaAAAAANRzwUo2xquXUJhHIYEftM0qTFFg" data-callback='onSubmit' data-action='submit'>Enviar</button>
+                        <button type="submit" id="rotten-form" name="submit" class="btn send g-recaptcha" data-sitekey="6Lc23BUaAAAAANRzwUo2xquXUJhHIYEftM0qTFFg" data-callback='onSubmit' data-action='submit'>Enviar</button>
                     </div>
                 </section>  
             </form>
@@ -39,7 +39,7 @@
         ?>
         <script>
             function onSubmit(token) {
-            document.getElementById("orm").submit();
+            document.getElementById("rotten-form").submit();
             }
         </script>
             <script>
