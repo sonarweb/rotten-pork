@@ -28,7 +28,7 @@
                           <textarea class="form-control" name="mensaje" id="form-text" rows="3" required></textarea>
                         </div>
                     <div class="contenedor-send">
-                        <button type="enviar" class="btn send">Enviar</button>
+                        <button type="submit" name="submit" class="btn send">Enviar</button>
                     </div>
                 </section>  
             </form>
