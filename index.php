@@ -163,7 +163,7 @@
 			<iframe frameborder="0"
 				class="lazyload"
     			allowfullscreen=""
-    			src="//www.youtube.com/embed/k9kvog-Wd-c">
+    			data-src="//www.youtube.com/embed/k9kvog-Wd-c">
 			</iframe>
 		</div>
 		<div class="videos__description">
@@ -178,7 +178,7 @@
 			<iframe frameborder="0"
 				class="lazyload"
     			allowfullscreen=""
-    			src="//www.youtube.com/embed/OiV6gg8Wndk">
+    			data-src="//www.youtube.com/embed/OiV6gg8Wndk">
 			</iframe>
 		</div>
 		<div class="videos__description">
