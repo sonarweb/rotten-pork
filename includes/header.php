@@ -37,6 +37,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js" defer> </script>
     <script src="https://rottenporkofficial.com/js/lazysizes.min.js" async="" ></script>
     <script src="https://kit.fontawesome.com/235ca587ad.js" crossorigin="anonymous" defer></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
     <script src="js/main.js" defer></script>
 </head>
 <body>
