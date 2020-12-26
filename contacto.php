@@ -16,8 +16,8 @@
                         <input type="text" name="nombre" class="form-control" required>
                     </div>
                     <div class="form-group">
-                        <label for="inputCity">Ciudad</label>
-                        <input type="text" name="ciudad" class="form-control" id="inputCity" required>
+                        <label for="text">Asunto</label>
+                        <input type="text" name="asunto" class="form-control" id="inputCity" required>
                       </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Correo Electrónico</label>

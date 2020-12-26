@@ -1,7 +1,7 @@
 <?php
     if (isset($_POST['submit'])) {
         $name = $_POST['nombre'];
-        $city = $_POST['ciudad'];
+        $subject = $_POST['asunto'];
         $mailFrom = $_POST['mail'];
         $message = $_POST['mensaje'];
 
@@ -11,7 +11,7 @@
 
 
 
-        mail($mailTo, $name, $txt, $headers);
+        mail($mailTo, $name, $subject, $txt, $headers);
         header("Location: contacto.php?mailsend");
 
     }
