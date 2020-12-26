@@ -12,7 +12,7 @@
 
 
         mail($mailTo, $name, $txt, $headers);
-        header("location: contacto.php?mailsend");
+        header("Location: contacto.php?mailsend");
 
     }
 ?>
