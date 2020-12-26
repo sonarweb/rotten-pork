@@ -11,7 +11,7 @@
 
 
 
-        mail($mailTo, $name, $subject, $txt, $headers);
+        mail($mailTo, $name, $txt, $headers);
         header("Location: contacto.php?mailsend");
 
     }
