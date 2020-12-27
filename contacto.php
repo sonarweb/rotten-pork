@@ -28,7 +28,7 @@
                           <textarea class="form-control" name="mensaje" id="form-text" rows="3" required></textarea>
                         </div>
                     <div class="contenedor-send">
-                        <button type="submit" name="submit" class="btn send">Enviar</button>
+                        <button id="form" type="submit" name="submit" class="btn send">Enviar</button>
                     </div>
                 </section>  
             </form>
@@ -41,47 +41,13 @@
         function onClick(e) {
         e.preventDefault();
         grecaptcha.ready(function() {
-        grecaptcha.execute('6Lc23BUaAAAAANRzwUo2xquXUJhHIYEftM0qTFFg', {action: 'submit'}).then(function(token) {
+        grecaptcha.execute('6Lc23BUaAAAAANRzwUo2xquXUJhHIYEftM0qTFFg', {
+        action: 'submit'}).then(function(token) {
               // Add your logic to submit to your backend server here.
-              methods: {
-    verifyCaptcha() {
-      e.preventDefault();
-      grecaptcha.ready(() => {
-        grecaptcha
-        // Don't forget about putting your unique SECRET_SITE_KEY.
-          .execute("6Lc23BUaAAAAAEroAhExFKPxof9Y3Pddya1AnYKq", {
-            action: "submit"
-          })
-          .then(token => {
-            // Try loggin the token first time to see if it got generated.
-            console.log(token);
-            // Add your logic to submit to your backend server here.
-            // Here we will send the token to our backend using axios (install and import it to the component).
-            // You could also use a Vue built in $http
-            const body = { token: token };
-            axios
-            // We are POSTing to a dedicated URL we have on backend (it can be any URL that will need the reCAPTCHA token)
-              .post("https://rottenporkofficial.com/contacto", body)
-              .then(response => {
-                // THe is_human part is our custom parameter comming from our backend. You can call it other name or just return something completly different. This is 100% to developer how will the reCAPTCHA returned probability be used.
-                if (response.data.is_human) {
-                 // Your front-end logic fired-up on success.
-                } else {
-                 // Your front-end logic fired-up on error.
-                }
-              })
-              .catch(error => {
-                console.log("Error : ", error);
-              })
-              // Boolean that could e.g. stop page loader.
-              .finally(() => (this.loading = false));
-          });
-      });
-    }
-  }
-          });
-        });
-      }
+              $('#form').prepend('<input type="hidden" name="token" value="' + token + '">');
+                $('#form').prepend('<input type="hidden" name="action" value="registro">');
+                $('#form').unbind('submit').submit();
+            });;
     </script>
             <script>
                function initMap(){
