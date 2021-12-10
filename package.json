@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sonarweb/rotten-pork#readme",
   "dependencies": {
+    "firebase": "^9.6.1",
     "tiny-slider": "^2.9.3"
   }
 }
